@@ -1,8 +1,0 @@
-*.md
-.env
-__pycache__
-allure-results
-allure-report
-venv
-.idea
-.pytest_cashe
