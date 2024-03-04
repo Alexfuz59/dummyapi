@@ -1,22 +1,22 @@
 {
-  "uid" : "2ec80f71620d413e",
-  "name" : "Get list of comments",
-  "fullName" : "tests.test_comment_controller.TestComment#test_comment_get_list",
-  "historyId" : "fd3746fe18ee5387b5e17633917f095a",
+  "uid" : "e71fa572aba9cbc7",
+  "name" : "Request without authorization",
+  "fullName" : "tests.test_user_controller.TestUser#test_no_authorization",
+  "historyId" : "c3589d03259f2c2f2c4b04f2d911d756",
   "time" : {
-    "start" : 1709561473939,
-    "stop" : 1709561475176,
-    "duration" : 1237
+    "start" : 1709561729401,
+    "stop" : 1709561729527,
+    "duration" : 126
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "authorization",
     "time" : {
-      "start" : 1709561473937,
-      "stop" : 1709561473939,
-      "duration" : 2
+      "start" : 1709561729399,
+      "stop" : 1709561729400,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1709561473915,
-      "stop" : 1709561473937,
-      "duration" : 22
+      "start" : 1709561706082,
+      "stop" : 1709561706105,
+      "duration" : 23
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "authorization",
+    "name" : "setup",
     "time" : {
-      "start" : 1709561473937,
-      "stop" : 1709561473937,
-      "duration" : 0
+      "start" : 1709561729400,
+      "stop" : 1709561729401,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -60,44 +60,29 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Request comment list",
+      "name" : "Request user list",
       "time" : {
-        "start" : 1709561473939,
-        "stop" : 1709561475169,
-        "duration" : 1230
+        "start" : 1709561729401,
+        "stop" : 1709561729526,
+        "duration" : 125
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "headers",
-        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+        "value" : "{}"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Check response is 200",
+      "name" : "Check response is 404",
       "time" : {
-        "start" : 1709561475170,
-        "stop" : 1709561475170,
+        "start" : 1709561729527,
+        "stop" : 1709561729527,
         "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Check validate schema",
-      "time" : {
-        "start" : 1709561475170,
-        "stop" : 1709561475176,
-        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -112,25 +97,25 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Comment controller"
+    "value" : "User controller"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_comment_controller"
+    "value" : "test_user_controller"
   }, {
     "name" : "subSuite",
-    "value" : "TestComment"
+    "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "91d73dd0cb86"
+    "value" : "661d3b0a2fb7"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -142,7 +127,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_comment_controller"
+    "value" : "tests.test_user_controller"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -155,8 +140,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "af5b1a9289b5bf3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561496311,
+          "stop" : 1709561496466,
+          "duration" : 155
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "2ec80f71620d413e.json",
+  "source" : "e71fa572aba9cbc7.json",
   "parameterValues" : [ ]
 }

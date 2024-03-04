@@ -1,12 +1,12 @@
 {
-  "uid" : "1e5d4244b65c1681",
+  "uid" : "fc97d9189cb43df4",
   "name" : "Get list of posts",
   "fullName" : "tests.test_post_controller.TestPost#test_get_post_list",
   "historyId" : "241ebf61b5a4302167739774b1b1739f",
   "time" : {
-    "start" : 1709561483928,
-    "stop" : 1709561484115,
-    "duration" : 187
+    "start" : 1709561719407,
+    "stop" : 1709561719658,
+    "duration" : 251
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1709561473915,
-      "stop" : 1709561473937,
-      "duration" : 22
+      "start" : 1709561706082,
+      "stop" : 1709561706105,
+      "duration" : 23
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "authorization",
     "time" : {
-      "start" : 1709561483926,
-      "stop" : 1709561483926,
+      "start" : 1709561719406,
+      "stop" : 1709561719406,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,8 +44,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1709561483926,
-      "stop" : 1709561483927,
+      "start" : 1709561719406,
+      "stop" : 1709561719407,
       "duration" : 1
     },
     "status" : "passed",
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Request post list",
       "time" : {
-        "start" : 1709561483928,
-        "stop" : 1709561484114,
-        "duration" : 186
+        "start" : 1709561719408,
+        "stop" : 1709561719657,
+        "duration" : 249
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +80,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709561484115,
-        "stop" : 1709561484115,
+        "start" : 1709561719657,
+        "stop" : 1709561719657,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,9 +95,9 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709561484115,
-        "stop" : 1709561484115,
-        "duration" : 0
+        "start" : 1709561719657,
+        "stop" : 1709561719658,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -130,7 +130,7 @@
     "value" : "TestPost"
   }, {
     "name" : "host",
-    "value" : "91d73dd0cb86"
+    "value" : "661d3b0a2fb7"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -155,8 +155,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1e5d4244b65c1681",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561483928,
+          "stop" : 1709561484115,
+          "duration" : 187
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "1e5d4244b65c1681.json",
+  "source" : "fc97d9189cb43df4.json",
   "parameterValues" : [ ]
 }

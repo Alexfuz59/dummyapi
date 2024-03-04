@@ -1,22 +1,52 @@
 {
-  "uid" : "62d3ffccdb45de75",
+  "uid" : "2dab709751b95e09",
   "name" : "Create new post",
   "fullName" : "tests.test_post_controller.TestPost#test_create_post",
   "historyId" : "7d47cce9a5f4c2bc3f97352eeff16c17",
   "time" : {
-    "start" : 1709561484959,
-    "stop" : 1709561485572,
-    "duration" : 613
+    "start" : 1709561720448,
+    "stop" : 1709561720980,
+    "duration" : 532
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1709561720311,
+      "stop" : 1709561720311,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1709561720311,
+      "stop" : 1709561720315,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1709561473915,
-      "stop" : 1709561473937,
-      "duration" : 22
+      "start" : 1709561706082,
+      "stop" : 1709561706105,
+      "duration" : 23
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,17 +59,17 @@
   }, {
     "name" : "user",
     "time" : {
-      "start" : 1709561484785,
-      "stop" : 1709561484958,
-      "duration" : 173
+      "start" : 1709561720315,
+      "stop" : 1709561720447,
+      "duration" : 132
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create user",
       "time" : {
-        "start" : 1709561484785,
-        "stop" : 1709561484958,
-        "duration" : 173
+        "start" : 1709561720315,
+        "stop" : 1709561720447,
+        "duration" : 132
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,8 +85,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709561484958,
-        "stop" : 1709561484958,
+        "start" : 1709561720447,
+        "stop" : 1709561720447,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,8 +100,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709561484958,
-        "stop" : 1709561484958,
+        "start" : 1709561720447,
+        "stop" : 1709561720447,
         "duration" : 0
       },
       "status" : "passed",
@@ -89,52 +119,22 @@
     "shouldDisplayMessage" : false,
     "stepsCount" : 3,
     "hasContent" : true
-  }, {
-    "name" : "setup",
-    "time" : {
-      "start" : 1709561484781,
-      "stop" : 1709561484785,
-      "duration" : 4
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "authorization",
-    "time" : {
-      "start" : 1709561484781,
-      "stop" : 1709561484781,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Create 2 post(s)",
       "time" : {
-        "start" : 1709561484959,
-        "stop" : 1709561485428,
-        "duration" : 469
+        "start" : 1709561720448,
+        "stop" : 1709561720818,
+        "duration" : 370
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check response is 200",
         "time" : {
-          "start" : 1709561485188,
-          "stop" : 1709561485188,
+          "start" : 1709561720607,
+          "stop" : 1709561720607,
           "duration" : 0
         },
         "status" : "passed",
@@ -148,8 +148,8 @@
       }, {
         "name" : "Check validate schema",
         "time" : {
-          "start" : 1709561485188,
-          "stop" : 1709561485188,
+          "start" : 1709561720607,
+          "stop" : 1709561720607,
           "duration" : 0
         },
         "status" : "passed",
@@ -163,8 +163,8 @@
       }, {
         "name" : "Check response is 200",
         "time" : {
-          "start" : 1709561485428,
-          "stop" : 1709561485428,
+          "start" : 1709561720818,
+          "stop" : 1709561720818,
           "duration" : 0
         },
         "status" : "passed",
@@ -178,8 +178,8 @@
       }, {
         "name" : "Check validate schema",
         "time" : {
-          "start" : 1709561485428,
-          "stop" : 1709561485428,
+          "start" : 1709561720818,
+          "stop" : 1709561720818,
           "duration" : 0
         },
         "status" : "passed",
@@ -200,8 +200,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709561485429,
-        "stop" : 1709561485429,
+        "start" : 1709561720818,
+        "stop" : 1709561720818,
         "duration" : 0
       },
       "status" : "passed",
@@ -215,9 +215,9 @@
     }, {
       "name" : "User post list by id",
       "time" : {
-        "start" : 1709561485429,
-        "stop" : 1709561485571,
-        "duration" : 142
+        "start" : 1709561720818,
+        "stop" : 1709561720979,
+        "duration" : 161
       },
       "status" : "passed",
       "steps" : [ ],
@@ -227,7 +227,7 @@
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
       }, {
         "name" : "user_id",
-        "value" : "'65e5d68cde0a2c24a776e613'"
+        "value" : "'65e5d778de0a2c47a376ea6b'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -236,8 +236,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709561485571,
-        "stop" : 1709561485571,
+        "start" : 1709561720979,
+        "stop" : 1709561720979,
         "duration" : 0
       },
       "status" : "passed",
@@ -251,9 +251,9 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709561485571,
-        "stop" : 1709561485572,
-        "duration" : 1
+        "start" : 1709561720979,
+        "stop" : 1709561720979,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -266,8 +266,8 @@
     }, {
       "name" : "Check total number of objects in the list",
       "time" : {
-        "start" : 1709561485572,
-        "stop" : 1709561485572,
+        "start" : 1709561720979,
+        "stop" : 1709561720979,
         "duration" : 0
       },
       "status" : "passed",
@@ -295,24 +295,24 @@
   "afterStages" : [ {
     "name" : "user::0",
     "time" : {
-      "start" : 1709561485572,
-      "stop" : 1709561485732,
-      "duration" : 160
+      "start" : 1709561720980,
+      "stop" : 1709561721162,
+      "duration" : 182
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Delete user",
       "time" : {
-        "start" : 1709561485573,
-        "stop" : 1709561485729,
-        "duration" : 156
+        "start" : 1709561720981,
+        "stop" : 1709561721160,
+        "duration" : 179
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "User(id='65e5d68cde0a2c24a776e613', title=None, firstName='Kylie', lastName='Robinson', gender=None, email='antonioalvarez@gmail.com', dateOfBirth=None, registerDate='2024-03-04T14:11:24.906Z', updatedDate='2024-03-04T14:11:24.906Z', phone=None, picture='https://picsum.photos/727/475', location=None)"
+        "value" : "User(id='65e5d778de0a2c47a376ea6b', title=None, firstName='Adam', lastName='Dixon', gender=None, email='timothyperry@yahoo.com', dateOfBirth=None, registerDate='2024-03-04T14:15:20.403Z', updatedDate='2024-03-04T14:15:20.403Z', phone=None, picture='https://picsum.photos/420/409', location=None)"
       }, {
         "name" : "headers",
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
@@ -343,7 +343,7 @@
     "value" : "TestPost"
   }, {
     "name" : "host",
-    "value" : "91d73dd0cb86"
+    "value" : "661d3b0a2fb7"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -371,8 +371,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "62d3ffccdb45de75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561484959,
+          "stop" : 1709561485572,
+          "duration" : 613
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "62d3ffccdb45de75.json",
+  "source" : "2dab709751b95e09.json",
   "parameterValues" : [ "2" ]
 }
