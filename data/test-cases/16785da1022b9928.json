@@ -1,32 +1,32 @@
 {
-  "uid" : "2299020b5093bb92",
+  "uid" : "16785da1022b9928",
   "name" : "Update user email by id",
   "fullName" : "tests.test_user_controller.TestUser#test_update_email_user",
   "historyId" : "d3c7909542544c6829a95e6640744ef6",
   "time" : {
-    "start" : 1709561730395,
-    "stop" : 1709561730546,
-    "duration" : 151
+    "start" : 1709739762345,
+    "stop" : 1709739762444,
+    "duration" : 99
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: Error status code 200",
-  "statusTrace" : "self = <test_user_controller.TestUser object at 0x7fbb2da4b020>\nuser = User(id='65e5d782de0a2c476976eb7e', title=None, firstName='Lisa', lastName='Owens', gender=None, email='vhaas@hotmail....:30.354Z', updatedDate='2024-03-04T14:15:30.354Z', phone=None, picture='https://dummyimage.com/849x818', location=None)\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user, authorization):\n        self.update_user.request_update_user(user, authorization, UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7fbb2da5f860>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:29: AssertionError",
+  "statusTrace" : "self = <test_user_controller.TestUser object at 0x7fb183467f20>\nuser = User(id='65e88ef26683389183f7f431', title=None, firstName='Joshua', lastName='Delgado', gender=None, email='jacobwood@...:42.325Z', updatedDate='2024-03-06T15:42:42.325Z', phone=None, picture='https://dummyimage.com/345x717', location=None)\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user, authorization):\n        self.update_user.request_update_user(user, authorization, UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7fb183473140>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:29: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "user",
     "time" : {
-      "start" : 1709561730273,
-      "stop" : 1709561730394,
-      "duration" : 121
+      "start" : 1709739762251,
+      "stop" : 1709739762344,
+      "duration" : 93
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create user",
       "time" : {
-        "start" : 1709561730274,
-        "stop" : 1709561730394,
-        "duration" : 120
+        "start" : 1709739762251,
+        "stop" : 1709739762344,
+        "duration" : 93
       },
       "status" : "passed",
       "steps" : [ ],
@@ -42,8 +42,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709561730394,
-        "stop" : 1709561730394,
+        "start" : 1709739762344,
+        "stop" : 1709739762344,
         "duration" : 0
       },
       "status" : "passed",
@@ -57,8 +57,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709561730394,
-        "stop" : 1709561730394,
+        "start" : 1709739762344,
+        "stop" : 1709739762344,
         "duration" : 0
       },
       "status" : "passed",
@@ -77,11 +77,11 @@
     "stepsCount" : 3,
     "hasContent" : true
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1709561706082,
-      "stop" : 1709561706105,
-      "duration" : 23
+      "start" : 1709739762248,
+      "stop" : 1709739762251,
+      "duration" : 3
     },
     "status" : "passed",
     "steps" : [ ],
@@ -94,8 +94,8 @@
   }, {
     "name" : "authorization",
     "time" : {
-      "start" : 1709561730270,
-      "stop" : 1709561730270,
+      "start" : 1709739762247,
+      "stop" : 1709739762247,
       "duration" : 0
     },
     "status" : "passed",
@@ -107,11 +107,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1709561730271,
-      "stop" : 1709561730273,
-      "duration" : 2
+      "start" : 1709739749157,
+      "stop" : 1709739749179,
+      "duration" : 22
     },
     "status" : "passed",
     "steps" : [ ],
@@ -125,26 +125,26 @@
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "AssertionError: Error status code 200",
-    "statusTrace" : "self = <test_user_controller.TestUser object at 0x7fbb2da4b020>\nuser = User(id='65e5d782de0a2c476976eb7e', title=None, firstName='Lisa', lastName='Owens', gender=None, email='vhaas@hotmail....:30.354Z', updatedDate='2024-03-04T14:15:30.354Z', phone=None, picture='https://dummyimage.com/849x818', location=None)\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user, authorization):\n        self.update_user.request_update_user(user, authorization, UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7fbb2da5f860>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:29: AssertionError",
+    "statusTrace" : "self = <test_user_controller.TestUser object at 0x7fb183467f20>\nuser = User(id='65e88ef26683389183f7f431', title=None, firstName='Joshua', lastName='Delgado', gender=None, email='jacobwood@...:42.325Z', updatedDate='2024-03-06T15:42:42.325Z', phone=None, picture='https://dummyimage.com/345x717', location=None)\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user, authorization):\n        self.update_user.request_update_user(user, authorization, UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7fb183473140>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:29: AssertionError",
     "steps" : [ {
       "name" : "Update user data",
       "time" : {
-        "start" : 1709561730395,
-        "stop" : 1709561730546,
-        "duration" : 151
+        "start" : 1709739762345,
+        "stop" : 1709739762443,
+        "duration" : 98
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user_before",
-        "value" : "User(id='65e5d782de0a2c476976eb7e', title=None, firstName='Lisa', lastName='Owens', gender=None, email='vhaas@hotmail.com', dateOfBirth=None, registerDate='2024-03-04T14:15:30.354Z', updatedDate='2024-03-04T14:15:30.354Z', phone=None, picture='https://dummyimage.com/849x818', location=None)"
+        "value" : "User(id='65e88ef26683389183f7f431', title=None, firstName='Joshua', lastName='Delgado', gender=None, email='jacobwood@gmail.com', dateOfBirth=None, registerDate='2024-03-06T15:42:42.325Z', updatedDate='2024-03-06T15:42:42.325Z', phone=None, picture='https://dummyimage.com/345x717', location=None)"
       }, {
         "name" : "headers",
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
       }, {
         "name" : "model",
-        "value" : "{'email': 'jonathansmith@hotmail.com'}"
+        "value" : "{'email': 'shannon80@yahoo.com'}"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -153,8 +153,8 @@
     }, {
       "name" : "Check response is 404",
       "time" : {
-        "start" : 1709561730546,
-        "stop" : 1709561730546,
+        "start" : 1709739762443,
+        "stop" : 1709739762443,
         "duration" : 0
       },
       "status" : "failed",
@@ -178,24 +178,24 @@
   "afterStages" : [ {
     "name" : "user::0",
     "time" : {
-      "start" : 1709561730550,
-      "stop" : 1709561730708,
-      "duration" : 158
+      "start" : 1709739762447,
+      "stop" : 1709739762552,
+      "duration" : 105
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Delete user",
       "time" : {
-        "start" : 1709561730550,
-        "stop" : 1709561730705,
-        "duration" : 155
+        "start" : 1709739762447,
+        "stop" : 1709739762550,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "User(id='65e5d782de0a2c476976eb7e', title=None, firstName='Lisa', lastName='Owens', gender=None, email='vhaas@hotmail.com', dateOfBirth=None, registerDate='2024-03-04T14:15:30.354Z', updatedDate='2024-03-04T14:15:30.354Z', phone=None, picture='https://dummyimage.com/849x818', location=None)"
+        "value" : "User(id='65e88ef26683389183f7f431', title=None, firstName='Joshua', lastName='Delgado', gender=None, email='jacobwood@gmail.com', dateOfBirth=None, registerDate='2024-03-06T15:42:42.325Z', updatedDate='2024-03-06T15:42:42.325Z', phone=None, picture='https://dummyimage.com/345x717', location=None)"
       }, {
         "name" : "headers",
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
@@ -226,7 +226,7 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "661d3b0a2fb7"
+    "value" : "fdbdd75fe6a1"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -257,14 +257,23 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 3,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "2299020b5093bb92",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1709561730395,
+          "stop" : 1709561730546,
+          "duration" : 151
+        }
+      }, {
         "uid" : "8e44740016f8870",
         "status" : "failed",
         "statusDetails" : "AssertionError: Error status code 200",
@@ -277,6 +286,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "2299020b5093bb92.json",
+  "source" : "16785da1022b9928.json",
   "parameterValues" : [ ]
 }
