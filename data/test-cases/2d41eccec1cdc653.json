@@ -1,22 +1,22 @@
 {
-  "uid" : "76ac126f93a3da8a",
+  "uid" : "2d41eccec1cdc653",
   "name" : "Get list of comments",
   "fullName" : "tests.test_comment_controller.TestComment#test_comment_get_list",
   "historyId" : "fd3746fe18ee5387b5e17633917f095a",
   "time" : {
-    "start" : 1710001522816,
-    "stop" : 1710001524537,
-    "duration" : 1721
+    "start" : 1710016675762,
+    "stop" : 1710016677858,
+    "duration" : 2096
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710001522814,
-      "stop" : 1710001522816,
-      "duration" : 2
+      "start" : 1710016675739,
+      "stop" : 1710016675760,
+      "duration" : 21
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1710001522792,
-      "stop" : 1710001522814,
-      "duration" : 22
+      "start" : 1710016675761,
+      "stop" : 1710016675762,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "authorization",
     "time" : {
-      "start" : 1710001522814,
-      "stop" : 1710001522814,
+      "start" : 1710016675761,
+      "stop" : 1710016675761,
       "duration" : 0
     },
     "status" : "passed",
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Request comment list",
       "time" : {
-        "start" : 1710001522816,
-        "stop" : 1710001524530,
-        "duration" : 1714
+        "start" : 1710016675762,
+        "stop" : 1710016677851,
+        "duration" : 2089
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +80,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1710001524530,
-        "stop" : 1710001524530,
+        "start" : 1710016677851,
+        "stop" : 1710016677851,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,8 +95,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1710001524531,
-        "stop" : 1710001524537,
+        "start" : 1710016677852,
+        "stop" : 1710016677858,
         "duration" : 6
       },
       "status" : "passed",
@@ -130,7 +130,7 @@
     "value" : "TestComment"
   }, {
     "name" : "host",
-    "value" : "53a59dd6fc60"
+    "value" : "cbe4cb7888fc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -160,11 +160,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "76ac126f93a3da8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001522816,
+          "stop" : 1710001524537,
+          "duration" : 1721
+        }
+      }, {
         "uid" : "8d69f930fef0df4",
         "status" : "passed",
         "time" : {
@@ -192,6 +200,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "76ac126f93a3da8a.json",
+  "source" : "2d41eccec1cdc653.json",
   "parameterValues" : [ ]
 }

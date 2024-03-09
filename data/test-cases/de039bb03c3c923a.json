@@ -1,24 +1,24 @@
 {
-  "uid" : "1c8fabb9a3d4faa7",
+  "uid" : "de039bb03c3c923a",
   "name" : "Get list of tags",
   "fullName" : "tests.test_tags_controller.TestTags#test_list_tags",
   "historyId" : "40fc6a6db1c1ce9366ccf0698b202bf9",
   "time" : {
-    "start" : 1710001549344,
-    "stop" : 1710001550205,
-    "duration" : 861
+    "start" : 1710016702548,
+    "stop" : 1710016703203,
+    "duration" : 655
   },
   "status" : "broken",
   "statusMessage" : "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\ndata.0\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.6/v/string_type",
-  "statusTrace" : "self = <test_tags_controller.TestTags object at 0x7f6426948860>\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Get list of tags')\n    def test_list_tags(self, authorization):\n        self.list_tags.request_tags_list(authorization)\n        self.list_tags.check_response_is_200()\n>       self.list_tags.check_validate()\n\ntests/test_tags_controller.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.tag_controller.list_tags.TagsList object at 0x7f642695aff0>\n\n    @allure.step('Check validate schema')\n    def check_validate(self):\n>       parsed_object = self.SCHEMA.model_validate(self.response_json)\nE       pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\nE       data.0\nE         Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\nE           For further information visit https://errors.pydantic.dev/2.6/v/string_type\n\nbase/base_api.py:12: ValidationError",
+  "statusTrace" : "self = <test_tags_controller.TestTags object at 0x7fe8b99c8da0>\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Get list of tags')\n    def test_list_tags(self, authorization):\n        self.list_tags.request_tags_list(authorization)\n        self.list_tags.check_response_is_200()\n>       self.list_tags.check_validate()\n\ntests/test_tags_controller.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.tag_controller.list_tags.TagsList object at 0x7fe8b99dfda0>\n\n    @allure.step('Check validate schema')\n    def check_validate(self):\n>       parsed_object = self.SCHEMA.model_validate(self.response_json)\nE       pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\nE       data.0\nE         Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\nE           For further information visit https://errors.pydantic.dev/2.6/v/string_type\n\nbase/base_api.py:12: ValidationError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710001522792,
-      "stop" : 1710001522814,
-      "duration" : 22
+      "start" : 1710016675739,
+      "stop" : 1710016675760,
+      "duration" : 21
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "authorization",
     "time" : {
-      "start" : 1710001549342,
-      "stop" : 1710001549342,
+      "start" : 1710016702547,
+      "stop" : 1710016702547,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,8 +46,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710001549342,
-      "stop" : 1710001549343,
+      "start" : 1710016702547,
+      "stop" : 1710016702548,
       "duration" : 1
     },
     "status" : "passed",
@@ -62,13 +62,13 @@
   "testStage" : {
     "status" : "broken",
     "statusMessage" : "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\ndata.0\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.6/v/string_type",
-    "statusTrace" : "self = <test_tags_controller.TestTags object at 0x7f6426948860>\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Get list of tags')\n    def test_list_tags(self, authorization):\n        self.list_tags.request_tags_list(authorization)\n        self.list_tags.check_response_is_200()\n>       self.list_tags.check_validate()\n\ntests/test_tags_controller.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.tag_controller.list_tags.TagsList object at 0x7f642695aff0>\n\n    @allure.step('Check validate schema')\n    def check_validate(self):\n>       parsed_object = self.SCHEMA.model_validate(self.response_json)\nE       pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\nE       data.0\nE         Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\nE           For further information visit https://errors.pydantic.dev/2.6/v/string_type\n\nbase/base_api.py:12: ValidationError",
+    "statusTrace" : "self = <test_tags_controller.TestTags object at 0x7fe8b99c8da0>\nauthorization = {'app-id': '65d388b26d41f39919c944af'}\n\n    @allure.title('Get list of tags')\n    def test_list_tags(self, authorization):\n        self.list_tags.request_tags_list(authorization)\n        self.list_tags.check_response_is_200()\n>       self.list_tags.check_validate()\n\ntests/test_tags_controller.py:12: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.tag_controller.list_tags.TagsList object at 0x7fe8b99dfda0>\n\n    @allure.step('Check validate schema')\n    def check_validate(self):\n>       parsed_object = self.SCHEMA.model_validate(self.response_json)\nE       pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\nE       data.0\nE         Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\nE           For further information visit https://errors.pydantic.dev/2.6/v/string_type\n\nbase/base_api.py:12: ValidationError",
     "steps" : [ {
       "name" : "Get tag list",
       "time" : {
-        "start" : 1710001549344,
-        "stop" : 1710001550204,
-        "duration" : 860
+        "start" : 1710016702548,
+        "stop" : 1710016703202,
+        "duration" : 654
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,8 +84,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1710001550204,
-        "stop" : 1710001550204,
+        "start" : 1710016703202,
+        "stop" : 1710016703202,
         "duration" : 0
       },
       "status" : "passed",
@@ -99,8 +99,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1710001550204,
-        "stop" : 1710001550204,
+        "start" : 1710016703202,
+        "stop" : 1710016703202,
         "duration" : 0
       },
       "status" : "broken",
@@ -136,7 +136,7 @@
     "value" : "TestTags"
   }, {
     "name" : "host",
-    "value" : "53a59dd6fc60"
+    "value" : "cbe4cb7888fc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -168,13 +168,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 4,
+        "broken" : 5,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "1c8fabb9a3d4faa7",
+        "status" : "broken",
+        "statusDetails" : "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\ndata.0\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.6/v/string_type",
+        "time" : {
+          "start" : 1710001549344,
+          "stop" : 1710001550205,
+          "duration" : 861
+        }
+      }, {
         "uid" : "34137adf21aace7c",
         "status" : "broken",
         "statusDetails" : "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\ndata.0\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.6/v/string_type",
@@ -205,6 +214,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "1c8fabb9a3d4faa7.json",
+  "source" : "de039bb03c3c923a.json",
   "parameterValues" : [ ]
 }

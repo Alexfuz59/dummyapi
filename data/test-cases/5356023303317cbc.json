@@ -1,22 +1,22 @@
 {
-  "uid" : "51e13388e4f9813f",
-  "name" : "Get list of posts",
-  "fullName" : "tests.test_post_controller.TestPost#test_get_post_list",
-  "historyId" : "241ebf61b5a4302167739774b1b1739f",
+  "uid" : "5356023303317cbc",
+  "name" : "Get list of users",
+  "fullName" : "tests.test_user_controller.TestUser#test_get_user_list",
+  "historyId" : "797adb3ab703d79d34f0c91168c9e6f9",
   "time" : {
-    "start" : 1710001537717,
-    "stop" : 1710001538431,
-    "duration" : 714
+    "start" : 1710016703386,
+    "stop" : 1710016703637,
+    "duration" : 251
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1710001522792,
-      "stop" : 1710001522814,
-      "duration" : 22
+      "start" : 1710016703384,
+      "stop" : 1710016703386,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "authorization",
     "time" : {
-      "start" : 1710001537716,
-      "stop" : 1710001537716,
+      "start" : 1710016703383,
+      "stop" : 1710016703383,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710001537716,
-      "stop" : 1710001537717,
-      "duration" : 1
+      "start" : 1710016675739,
+      "stop" : 1710016675760,
+      "duration" : 21
     },
     "status" : "passed",
     "steps" : [ ],
@@ -60,11 +60,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Request post list",
+      "name" : "Request user list",
       "time" : {
-        "start" : 1710001537717,
-        "stop" : 1710001538430,
-        "duration" : 713
+        "start" : 1710016703386,
+        "stop" : 1710016703637,
+        "duration" : 251
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +80,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1710001538430,
-        "stop" : 1710001538430,
+        "start" : 1710016703637,
+        "stop" : 1710016703637,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,8 +95,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1710001538430,
-        "stop" : 1710001538430,
+        "start" : 1710016703637,
+        "stop" : 1710016703637,
         "duration" : 0
       },
       "status" : "passed",
@@ -118,19 +118,19 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Post controller"
+    "value" : "User controller"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_post_controller"
+    "value" : "test_user_controller"
   }, {
     "name" : "subSuite",
-    "value" : "TestPost"
+    "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "53a59dd6fc60"
+    "value" : "cbe4cb7888fc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -142,7 +142,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_post_controller"
+    "value" : "tests.test_user_controller"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -160,38 +160,46 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
-        "uid" : "250413198055a6a6",
+        "uid" : "100c05b6e9ac92e1",
         "status" : "passed",
         "time" : {
-          "start" : 1709739755370,
-          "stop" : 1709739755689,
-          "duration" : 319
+          "start" : 1710001550418,
+          "stop" : 1710001550638,
+          "duration" : 220
         }
       }, {
-        "uid" : "fc97d9189cb43df4",
+        "uid" : "d45b21aa8a697b78",
         "status" : "passed",
         "time" : {
-          "start" : 1709561719407,
-          "stop" : 1709561719658,
-          "duration" : 251
+          "start" : 1709739761734,
+          "stop" : 1709739761851,
+          "duration" : 117
         }
       }, {
-        "uid" : "1e5d4244b65c1681",
+        "uid" : "5fd646c07035c07b",
         "status" : "passed",
         "time" : {
-          "start" : 1709561483928,
-          "stop" : 1709561484115,
-          "duration" : 187
+          "start" : 1709561729532,
+          "stop" : 1709561729662,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "da72dbee1fd3fe50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561496471,
+          "stop" : 1709561496631,
+          "duration" : 160
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "51e13388e4f9813f.json",
+  "source" : "5356023303317cbc.json",
   "parameterValues" : [ ]
 }

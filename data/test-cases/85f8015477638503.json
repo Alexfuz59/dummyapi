@@ -1,52 +1,37 @@
 {
-  "uid" : "e0ef4d8a7002ae35",
-  "name" : "Get list of posts for specific tag",
-  "fullName" : "tests.test_post_controller.TestPost#test_post_list_by_tag",
-  "historyId" : "9f27b0e4610edab892e3f711b5abd797",
+  "uid" : "85f8015477638503",
+  "name" : "Update post by id",
+  "fullName" : "tests.test_post_controller.TestPost#test_update_post",
+  "historyId" : "ebd668655f1ae016eb05acb49f618099",
   "time" : {
-    "start" : 1710001548673,
-    "stop" : 1710001548975,
-    "duration" : 302
+    "start" : 1710016696750,
+    "stop" : 1710016697024,
+    "duration" : 274
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "authorization",
-    "time" : {
-      "start" : 1710001548303,
-      "stop" : 1710001548303,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "post",
     "time" : {
-      "start" : 1710001548505,
-      "stop" : 1710001548672,
-      "duration" : 167
+      "start" : 1710016696344,
+      "stop" : 1710016696749,
+      "duration" : 405
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create 1 post(s)",
       "time" : {
-        "start" : 1710001548505,
-        "stop" : 1710001548672,
-        "duration" : 167
+        "start" : 1710016696344,
+        "stop" : 1710016696749,
+        "duration" : 405
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check response is 200",
         "time" : {
-          "start" : 1710001548672,
-          "stop" : 1710001548672,
+          "start" : 1710016696749,
+          "stop" : 1710016696749,
           "duration" : 0
         },
         "status" : "passed",
@@ -60,8 +45,8 @@
       }, {
         "name" : "Check validate schema",
         "time" : {
-          "start" : 1710001548672,
-          "stop" : 1710001548672,
+          "start" : 1710016696749,
+          "stop" : 1710016696749,
           "duration" : 0
         },
         "status" : "passed",
@@ -82,8 +67,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1710001548672,
-        "stop" : 1710001548672,
+        "start" : 1710016696749,
+        "stop" : 1710016696749,
         "duration" : 0
       },
       "status" : "passed",
@@ -97,8 +82,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1710001548672,
-        "stop" : 1710001548672,
+        "start" : 1710016696749,
+        "stop" : 1710016696749,
         "duration" : 0
       },
       "status" : "passed",
@@ -117,11 +102,11 @@
     "stepsCount" : 5,
     "hasContent" : true
   }, {
-    "name" : "_session_faker",
+    "name" : "authorization",
     "time" : {
-      "start" : 1710001522792,
-      "stop" : 1710001522814,
-      "duration" : 22
+      "start" : 1710016696155,
+      "stop" : 1710016696155,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -134,9 +119,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710001548303,
-      "stop" : 1710001548308,
-      "duration" : 5
+      "start" : 1710016696155,
+      "stop" : 1710016696158,
+      "duration" : 3
     },
     "status" : "passed",
     "steps" : [ ],
@@ -149,17 +134,17 @@
   }, {
     "name" : "user",
     "time" : {
-      "start" : 1710001548308,
-      "stop" : 1710001548505,
-      "duration" : 197
+      "start" : 1710016696159,
+      "stop" : 1710016696344,
+      "duration" : 185
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create user",
       "time" : {
-        "start" : 1710001548308,
-        "stop" : 1710001548504,
-        "duration" : 196
+        "start" : 1710016696159,
+        "stop" : 1710016696343,
+        "duration" : 184
       },
       "status" : "passed",
       "steps" : [ ],
@@ -175,8 +160,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1710001548505,
-        "stop" : 1710001548505,
+        "start" : 1710016696343,
+        "stop" : 1710016696343,
         "duration" : 0
       },
       "status" : "passed",
@@ -190,9 +175,9 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1710001548505,
-        "stop" : 1710001548505,
-        "duration" : 0
+        "start" : 1710016696343,
+        "stop" : 1710016696344,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -209,82 +194,30 @@
     "shouldDisplayMessage" : false,
     "stepsCount" : 3,
     "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710016675739,
+      "stop" : 1710016675760,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "User tag list request",
+      "name" : "Update post",
       "time" : {
-        "start" : 1710001548673,
-        "stop" : 1710001548975,
-        "duration" : 302
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "headers",
-        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
-      }, {
-        "name" : "user",
-        "value" : "Post(id='65ec8d8c0965bfa68cb2549b', text='A meet near.', image=Url('https://picsum.photos/347/318'), likes=454, link='', tags=['specific'], publishDate='2024-03-09T16:25:48.620Z', updatedDate='2024-03-09T16:25:48.620Z', owner=UserModel(id='65ec8d8ce8734da4e2ffa022', title=None, firstName='Michelle', lastName='Alvarado', picture=Url('https://picsum.photos/179/178')))"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Check response is 200",
-      "time" : {
-        "start" : 1710001548975,
-        "stop" : 1710001548975,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Check validate schema",
-      "time" : {
-        "start" : 1710001548975,
-        "stop" : 1710001548975,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    } ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 3,
-    "hasContent" : true
-  },
-  "afterStages" : [ {
-    "name" : "post::0",
-    "time" : {
-      "start" : 1710001548976,
-      "stop" : 1710001549192,
-      "duration" : 216
-    },
-    "status" : "passed",
-    "steps" : [ {
-      "name" : "Delete post",
-      "time" : {
-        "start" : 1710001548976,
-        "stop" : 1710001549192,
-        "duration" : 216
+        "start" : 1710016696750,
+        "stop" : 1710016697023,
+        "duration" : 273
       },
       "status" : "passed",
       "steps" : [ ],
@@ -294,7 +227,95 @@
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
       }, {
         "name" : "post",
-        "value" : "Post(id='65ec8d8c0965bfa68cb2549b', text='A meet near.', image=Url('https://picsum.photos/347/318'), likes=454, link='', tags=['specific'], publishDate='2024-03-09T16:25:48.620Z', updatedDate='2024-03-09T16:25:48.620Z', owner=UserModel(id='65ec8d8ce8734da4e2ffa022', title=None, firstName='Michelle', lastName='Alvarado', picture=Url('https://picsum.photos/179/178')))"
+        "value" : "Post(id='65ecc8b852e6525b9db9cc16', text='Back least major.', image=Url('https://picsum.photos/356/961'), likes=970, link='', tags=['political'], publishDate='2024-03-09T20:38:16.702Z', updatedDate='2024-03-09T20:38:16.702Z', owner=UserModel(id='65ecc8b864f0db41f8c5b0e8', title=None, firstName='Lori', lastName='Willis', picture=Url('https://picsum.photos/962/456')))"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710016697023,
+        "stop" : 1710016697023,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710016697023,
+        "stop" : 1710016697023,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Checking for changes to the post data",
+      "time" : {
+        "start" : 1710016697024,
+        "stop" : 1710016697024,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "payload",
+        "value" : "Post(id='65ecc8b852e6525b9db9cc16', text='Back least major.', image=Url('https://picsum.photos/356/961'), likes=970, link='', tags=['political'], publishDate='2024-03-09T20:38:16.702Z', updatedDate='2024-03-09T20:38:16.702Z', owner=UserModel(id='65ecc8b864f0db41f8c5b0e8', title=None, firstName='Lori', lastName='Willis', picture=Url('https://picsum.photos/962/456')))"
+      }, {
+        "name" : "response",
+        "value" : "Post(id='65ecc8b852e6525b9db9cc16', text='Wife role fact particularly year wait.', image=Url('https://placekitten.com/315/303'), likes=970, link='https://curtis.com/posts/listhome.htm', tags=['ok'], publishDate='2024-03-09T20:38:16.702Z', updatedDate='2024-03-09T20:38:16.916Z', owner=UserModel(id='65ecc8b864f0db41f8c5b0e8', title=None, firstName='Lori', lastName='Willis', picture=Url('https://picsum.photos/962/456')))"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "post::0",
+    "time" : {
+      "start" : 1710016697024,
+      "stop" : 1710016697415,
+      "duration" : 391
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete post",
+      "time" : {
+        "start" : 1710016697024,
+        "stop" : 1710016697415,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "post",
+        "value" : "Post(id='65ecc8b852e6525b9db9cc16', text='Back least major.', image=Url('https://picsum.photos/356/961'), likes=970, link='', tags=['political'], publishDate='2024-03-09T20:38:16.702Z', updatedDate='2024-03-09T20:38:16.702Z', owner=UserModel(id='65ecc8b864f0db41f8c5b0e8', title=None, firstName='Lori', lastName='Willis', picture=Url('https://picsum.photos/962/456')))"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -310,24 +331,24 @@
   }, {
     "name" : "user::0",
     "time" : {
-      "start" : 1710001549193,
-      "stop" : 1710001549341,
-      "duration" : 148
+      "start" : 1710016697416,
+      "stop" : 1710016697596,
+      "duration" : 180
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Delete user",
       "time" : {
-        "start" : 1710001549193,
-        "stop" : 1710001549339,
-        "duration" : 146
+        "start" : 1710016697416,
+        "stop" : 1710016697594,
+        "duration" : 178
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "User(id='65ec8d8ce8734da4e2ffa022', title=None, firstName='Michelle', lastName='Alvarado', gender=None, email='joel67@hotmail.com', dateOfBirth=None, registerDate='2024-03-09T16:25:48.462Z', updatedDate='2024-03-09T16:25:48.462Z', phone=None, picture='https://picsum.photos/179/178', location=None)"
+        "value" : "User(id='65ecc8b864f0db41f8c5b0e8', title=None, firstName='Lori', lastName='Willis', gender=None, email='jessecollier@gmail.com', dateOfBirth=None, registerDate='2024-03-09T20:38:16.274Z', updatedDate='2024-03-09T20:38:16.274Z', phone=None, picture='https://picsum.photos/962/456', location=None)"
       }, {
         "name" : "headers",
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
@@ -358,7 +379,7 @@
     "value" : "TestPost"
   }, {
     "name" : "host",
-    "value" : "53a59dd6fc60"
+    "value" : "cbe4cb7888fc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -388,38 +409,46 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
-        "uid" : "b5e4e727db32fd1",
+        "uid" : "d3ccb323b58665a5",
         "status" : "passed",
         "time" : {
-          "start" : 1709739760869,
-          "stop" : 1709739761017,
-          "duration" : 148
+          "start" : 1710001544428,
+          "stop" : 1710001544755,
+          "duration" : 327
         }
       }, {
-        "uid" : "f62b4b1486435535",
+        "uid" : "fbd6e17d08d2a04c",
         "status" : "passed",
         "time" : {
-          "start" : 1709561728089,
-          "stop" : 1709561728289,
-          "duration" : 200
+          "start" : 1709739758548,
+          "stop" : 1709739758664,
+          "duration" : 116
         }
       }, {
-        "uid" : "144a4551befc80dc",
+        "uid" : "ec8db95aa6d2942e",
         "status" : "passed",
         "time" : {
-          "start" : 1709561495157,
-          "stop" : 1709561495427,
-          "duration" : 270
+          "start" : 1709561724193,
+          "stop" : 1709561724438,
+          "duration" : 245
+        }
+      }, {
+        "uid" : "a4f5713d100bdc64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561488103,
+          "stop" : 1709561488264,
+          "duration" : 161
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "e0ef4d8a7002ae35.json",
+  "source" : "85f8015477638503.json",
   "parameterValues" : [ ]
 }
