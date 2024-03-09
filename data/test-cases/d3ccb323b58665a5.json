@@ -1,22 +1,22 @@
 {
-  "uid" : "60f21f549c5443d4",
-  "name" : "Get post full data by post id",
-  "fullName" : "tests.test_post_controller.TestPost#test_post_by_id",
-  "historyId" : "883f4a3ff85bbcc535e38ab987799d96",
+  "uid" : "d3ccb323b58665a5",
+  "name" : "Update post by id",
+  "fullName" : "tests.test_post_controller.TestPost#test_update_post",
+  "historyId" : "ebd668655f1ae016eb05acb49f618099",
   "time" : {
-    "start" : 1709739759686,
-    "stop" : 1709739759843,
-    "duration" : 157
+    "start" : 1710001544428,
+    "stop" : 1710001544755,
+    "duration" : 327
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "authorization",
     "time" : {
-      "start" : 1709739759480,
-      "stop" : 1709739759486,
-      "duration" : 6
+      "start" : 1710001544043,
+      "stop" : 1710001544043,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,17 +29,17 @@
   }, {
     "name" : "user",
     "time" : {
-      "start" : 1709739759486,
-      "stop" : 1709739759574,
-      "duration" : 88
+      "start" : 1710001544046,
+      "stop" : 1710001544235,
+      "duration" : 189
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create user",
       "time" : {
-        "start" : 1709739759486,
-        "stop" : 1709739759574,
-        "duration" : 88
+        "start" : 1710001544047,
+        "stop" : 1710001544234,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,8 +55,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709739759574,
-        "stop" : 1709739759574,
+        "start" : 1710001544235,
+        "stop" : 1710001544235,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,8 +70,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709739759574,
-        "stop" : 1709739759574,
+        "start" : 1710001544235,
+        "stop" : 1710001544235,
         "duration" : 0
       },
       "status" : "passed",
@@ -90,26 +90,56 @@
     "stepsCount" : 3,
     "hasContent" : true
   }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710001544043,
+      "stop" : 1710001544046,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710001522792,
+      "stop" : 1710001522814,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "post",
     "time" : {
-      "start" : 1709739759574,
-      "stop" : 1709739759686,
-      "duration" : 112
+      "start" : 1710001544235,
+      "stop" : 1710001544428,
+      "duration" : 193
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Create 1 post(s)",
       "time" : {
-        "start" : 1709739759574,
-        "stop" : 1709739759685,
-        "duration" : 111
+        "start" : 1710001544235,
+        "stop" : 1710001544427,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check response is 200",
         "time" : {
-          "start" : 1709739759685,
-          "stop" : 1709739759685,
+          "start" : 1710001544427,
+          "stop" : 1710001544427,
           "duration" : 0
         },
         "status" : "passed",
@@ -123,8 +153,8 @@
       }, {
         "name" : "Check validate schema",
         "time" : {
-          "start" : 1709739759685,
-          "stop" : 1709739759685,
+          "start" : 1710001544427,
+          "stop" : 1710001544427,
           "duration" : 0
         },
         "status" : "passed",
@@ -145,8 +175,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709739759686,
-        "stop" : 1709739759686,
+        "start" : 1710001544427,
+        "stop" : 1710001544427,
         "duration" : 0
       },
       "status" : "passed",
@@ -160,9 +190,9 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709739759686,
-        "stop" : 1709739759686,
-        "duration" : 0
+        "start" : 1710001544427,
+        "stop" : 1710001544428,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -179,45 +209,15 @@
     "shouldDisplayMessage" : false,
     "stepsCount" : 5,
     "hasContent" : true
-  }, {
-    "name" : "authorization",
-    "time" : {
-      "start" : 1709739759480,
-      "stop" : 1709739759480,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1709739749157,
-      "stop" : 1709739749179,
-      "duration" : 22
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get post by id user",
+      "name" : "Update post",
       "time" : {
-        "start" : 1709739759686,
-        "stop" : 1709739759842,
-        "duration" : 156
+        "start" : 1710001544428,
+        "stop" : 1710001544754,
+        "duration" : 326
       },
       "status" : "passed",
       "steps" : [ ],
@@ -227,7 +227,7 @@
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
       }, {
         "name" : "post",
-        "value" : "Post(id='65e88eef66833835d7f7f3d5', text='His do account.', image=Url('https://dummyimage.com/942x671'), likes=715, link='', tags=['may'], publishDate='2024-03-06T15:42:39.662Z', updatedDate='2024-03-06T15:42:39.662Z', owner=UserModel(id='65e88eef6683383cfaf7f3cf', title=None, firstName='Michelle', lastName='Stephenson', picture=Url('https://picsum.photos/194/953')))"
+        "value" : "Post(id='65ec8d880965bf09dfb25460', text='Newspaper raise.', image=Url('https://picsum.photos/123/120'), likes=828, link='', tags=['certain'], publishDate='2024-03-09T16:25:44.363Z', updatedDate='2024-03-09T16:25:44.363Z', owner=UserModel(id='65ec8d880965bf806ab2545a', title=None, firstName='Kristina', lastName='Howell', picture=Url('https://dummyimage.com/378x704')))"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -236,8 +236,8 @@
     }, {
       "name" : "Check response is 200",
       "time" : {
-        "start" : 1709739759842,
-        "stop" : 1709739759842,
+        "start" : 1710001544754,
+        "stop" : 1710001544754,
         "duration" : 0
       },
       "status" : "passed",
@@ -251,8 +251,8 @@
     }, {
       "name" : "Check validate schema",
       "time" : {
-        "start" : 1709739759842,
-        "stop" : 1709739759842,
+        "start" : 1710001544754,
+        "stop" : 1710001544754,
         "duration" : 0
       },
       "status" : "passed",
@@ -264,21 +264,21 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Checking the requested post by id",
+      "name" : "Checking for changes to the post data",
       "time" : {
-        "start" : 1709739759843,
-        "stop" : 1709739759843,
+        "start" : 1710001544755,
+        "stop" : 1710001544755,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "post",
-        "value" : "Post(id='65e88eef66833835d7f7f3d5', text='His do account.', image=Url('https://dummyimage.com/942x671'), likes=715, link='', tags=['may'], publishDate='2024-03-06T15:42:39.662Z', updatedDate='2024-03-06T15:42:39.662Z', owner=UserModel(id='65e88eef6683383cfaf7f3cf', title=None, firstName='Michelle', lastName='Stephenson', picture=Url('https://picsum.photos/194/953')))"
+        "name" : "payload",
+        "value" : "Post(id='65ec8d880965bf09dfb25460', text='Newspaper raise.', image=Url('https://picsum.photos/123/120'), likes=828, link='', tags=['certain'], publishDate='2024-03-09T16:25:44.363Z', updatedDate='2024-03-09T16:25:44.363Z', owner=UserModel(id='65ec8d880965bf806ab2545a', title=None, firstName='Kristina', lastName='Howell', picture=Url('https://dummyimage.com/378x704')))"
       }, {
         "name" : "response",
-        "value" : "Post(id='65e88eef66833835d7f7f3d5', text='His do account.', image=Url('https://dummyimage.com/942x671'), likes=715, link='', tags=['may'], publishDate='2024-03-06T15:42:39.662Z', updatedDate='2024-03-06T15:42:39.662Z', owner=UserModel(id='65e88eef6683383cfaf7f3cf', title=None, firstName='Michelle', lastName='Stephenson', picture=Url('https://picsum.photos/194/953')))"
+        "value" : "Post(id='65ec8d880965bf09dfb25460', text='Offer painting manage.', image=Url('https://dummyimage.com/171x546'), likes=828, link='http://www.thomas.com/searchhomepage.php', tags=['one'], publishDate='2024-03-09T16:25:44.363Z', updatedDate='2024-03-09T16:25:44.642Z', owner=UserModel(id='65ec8d880965bf806ab2545a', title=None, firstName='Kristina', lastName='Howell', picture=Url('https://dummyimage.com/378x704')))"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -295,24 +295,24 @@
   "afterStages" : [ {
     "name" : "user::0",
     "time" : {
-      "start" : 1709739759940,
-      "stop" : 1709739760045,
-      "duration" : 105
+      "start" : 1710001544958,
+      "stop" : 1710001545255,
+      "duration" : 297
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Delete user",
       "time" : {
-        "start" : 1709739759940,
-        "stop" : 1709739760042,
-        "duration" : 102
+        "start" : 1710001544958,
+        "stop" : 1710001545253,
+        "duration" : 295
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "User(id='65e88eef6683383cfaf7f3cf', title=None, firstName='Michelle', lastName='Stephenson', gender=None, email='zbrown@gmail.com', dateOfBirth=None, registerDate='2024-03-06T15:42:39.553Z', updatedDate='2024-03-06T15:42:39.553Z', phone=None, picture='https://picsum.photos/194/953', location=None)"
+        "value" : "User(id='65ec8d880965bf806ab2545a', title=None, firstName='Kristina', lastName='Howell', gender=None, email='icooper@hotmail.com', dateOfBirth=None, registerDate='2024-03-09T16:25:44.166Z', updatedDate='2024-03-09T16:25:44.166Z', phone=None, picture='https://dummyimage.com/378x704', location=None)"
       }, {
         "name" : "headers",
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
@@ -331,17 +331,17 @@
   }, {
     "name" : "post::0",
     "time" : {
-      "start" : 1709739759843,
-      "stop" : 1709739759938,
-      "duration" : 95
+      "start" : 1710001544755,
+      "stop" : 1710001544958,
+      "duration" : 203
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Delete post",
       "time" : {
-        "start" : 1709739759843,
-        "stop" : 1709739759938,
-        "duration" : 95
+        "start" : 1710001544755,
+        "stop" : 1710001544958,
+        "duration" : 203
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,7 +351,7 @@
         "value" : "{'app-id': '65d388b26d41f39919c944af'}"
       }, {
         "name" : "post",
-        "value" : "Post(id='65e88eef66833835d7f7f3d5', text='His do account.', image=Url('https://dummyimage.com/942x671'), likes=715, link='', tags=['may'], publishDate='2024-03-06T15:42:39.662Z', updatedDate='2024-03-06T15:42:39.662Z', owner=UserModel(id='65e88eef6683383cfaf7f3cf', title=None, firstName='Michelle', lastName='Stephenson', picture=Url('https://picsum.photos/194/953')))"
+        "value" : "Post(id='65ec8d880965bf09dfb25460', text='Newspaper raise.', image=Url('https://picsum.photos/123/120'), likes=828, link='', tags=['certain'], publishDate='2024-03-09T16:25:44.363Z', updatedDate='2024-03-09T16:25:44.363Z', owner=UserModel(id='65ec8d880965bf806ab2545a', title=None, firstName='Kristina', lastName='Howell', picture=Url('https://dummyimage.com/378x704')))"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -379,7 +379,7 @@
     "value" : "TestPost"
   }, {
     "name" : "host",
-    "value" : "fdbdd75fe6a1"
+    "value" : "53a59dd6fc60"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -409,30 +409,38 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "574206c5c9cd4025",
+        "uid" : "fbd6e17d08d2a04c",
         "status" : "passed",
         "time" : {
-          "start" : 1709561726181,
-          "stop" : 1709561726426,
+          "start" : 1709739758548,
+          "stop" : 1709739758664,
+          "duration" : 116
+        }
+      }, {
+        "uid" : "ec8db95aa6d2942e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561724193,
+          "stop" : 1709561724438,
           "duration" : 245
         }
       }, {
-        "uid" : "8ae4176a2f20b190",
+        "uid" : "a4f5713d100bdc64",
         "status" : "passed",
         "time" : {
-          "start" : 1709561489825,
-          "stop" : 1709561489965,
-          "duration" : 140
+          "start" : 1709561488103,
+          "stop" : 1709561488264,
+          "duration" : 161
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "60f21f549c5443d4.json",
+  "source" : "d3ccb323b58665a5.json",
   "parameterValues" : [ ]
 }
