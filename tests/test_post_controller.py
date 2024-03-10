@@ -6,14 +6,6 @@ from base.base_test import BaseTest
 @allure.feature('Post controller')
 class TestPost(BaseTest):
 
-    @pytest.fixture()
-    def post(self, authorization, user):
-        self.create_post.request_create_post(authorization, user)
-        self.create_post.check_response_is_200()
-        post = self.create_post.check_validate()
-        yield post
-        self.delete_post.request_delete_post(authorization, post)
-
     @allure.title('Get list of posts')
     def test_get_post_list(self, authorization):
         self.post_list.request_post_list(authorization)

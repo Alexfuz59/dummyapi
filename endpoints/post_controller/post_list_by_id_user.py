@@ -8,7 +8,15 @@ from schema.post_list import DataListPost
 class PostListByIDUser(BaseAPI):
     SCHEMA = DataListPost
 
+    def __init__(self):
+        super().__init__()
+        self.url = PostDataLink()
+
     @allure.step('User post list by id')
     def request_post_list_by_id(self, headers, user_id):
-        self.response = requests.get(url=f'{PostDataLink.GET_LIST_BY_USER}/{user_id}/post', headers=headers)
+        self.response = requests.get(
+            url=self.url.GET_LIST_BY_USER(user_id),
+            headers=headers
+        )
         self.response_json = self.response.json()
+        self.attach_response()

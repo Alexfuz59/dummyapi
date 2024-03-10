@@ -3,7 +3,7 @@ name: dummyapi
 on: workflow_dispatch
 
 jobs:
-  api_tests:
+  api_tests_dummyapi:
     runs-on: ubuntu-latest
 
     steps:

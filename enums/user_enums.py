@@ -8,6 +8,7 @@ class Title(Enum):
    dr = "dr"
    mr = "mr"
 
+
 class Genders(Enum):
    male ="male"
    female = "female"

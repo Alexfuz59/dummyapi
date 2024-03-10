@@ -3,16 +3,22 @@ import allure
 from base.base_api import BaseAPI
 from config.links import UserDataLink
 from schema.user_full import User
-from model.data_generator import RegisterUser
+from model.payload import RegisterUser
 
 
 class CreateUser(BaseAPI):
     SCHEMA = User
 
     def __init__(self):
-        self.payload_reg = RegisterUser.user_data()
+        super().__init__()
+        self.url = UserDataLink()
+        self.payload = RegisterUser()
 
     @allure.step('Create user')
     def request_create_user(self, headers):
-        self.response = requests.post(url=UserDataLink.CREATE_USER, headers=headers, data=self.payload_reg)
+        self.response = requests.post(url=self.url.CREATE_USER,
+                                      headers=headers,
+                                      json=self.payload.user_data()
+                                      )
         self.response_json = self.response.json()
+        self.attach_response()

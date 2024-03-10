@@ -39,15 +39,17 @@ class UpdateUserDate:
 
 class RegisterPost:
     @staticmethod
-    def post_data():
+    def post_data(owner_id):
         text = fake.text(max_nb_chars=20)
         image = fake.image_url()
         likes = randint(0, 1000)
         tags = fake.word()
+        owner = owner_id
         return {"text": text,
                 "image": image,
                 "likes": likes,
-                "tags": tags
+                "tags": tags,
+                "owner": owner
                 }
 
 
@@ -67,6 +69,11 @@ class UpdatePostDate:
 
 class CreateCommentDate:
     @staticmethod
-    def data_comment():
+    def data_comment(owner_id, post_id):
         message = fake.text(max_nb_chars=70)
-        return {"message": message}
+        owner = owner_id
+        post = post_id
+        return {"owner": owner,
+                "post": post,
+                "message": message
+                }

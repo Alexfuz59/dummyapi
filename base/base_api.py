@@ -1,4 +1,6 @@
 import allure
+import json
+from allure_commons.types import AttachmentType
 
 
 class BaseAPI:
@@ -27,3 +29,7 @@ class BaseAPI:
     @allure.step('Check response is 404')
     def check_response_is_403(self):
         assert self.response.status_code == 403, f'Error status code {self.response.status_code}'
+
+    def attach_response(self):
+        response = json.dumps(self.response_json, indent=4)
+        allure.attach(body=response, name="API Response", attachment_type=AttachmentType.JSON)

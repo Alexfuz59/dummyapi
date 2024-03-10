@@ -3,19 +3,25 @@ import allure
 from base.base_api import BaseAPI
 from config.links import PostDataLink
 from schema.post import Post
-from model.data_generator import UpdatePostDate
+from model.payload import UpdatePostDate
 
 
 class UpdatePost(BaseAPI):
     SCHEMA = Post
 
     def __init__(self):
-        self.payload_post = UpdatePostDate.update_post()
+        super().__init__()
+        self.url = PostDataLink()
+        self.payload = UpdatePostDate()
 
     @allure.step('Update post')
     def request_update_post(self, headers, post):
-        self.response = requests.put(url=f'{PostDataLink.UPDATE_POST}/{post.id}', headers=headers, data=self.payload_post)
+        self.response = requests.put(url=self.url.UPDATE_POST(post.id),
+                                     headers=headers,
+                                     data=self.payload.update_post()
+        )
         self.response_json = self.response.json()
+        self.attach_response()
 
     @allure.step('Checking for changes to the post data')
     def check_update_post(self, payload, response):
