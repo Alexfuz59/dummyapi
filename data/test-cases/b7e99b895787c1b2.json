@@ -1,0 +1,357 @@
+{
+  "uid" : "b7e99b895787c1b2",
+  "name" : "Update user by id",
+  "fullName" : "tests.test_user_controller.TestUser#test_update_user",
+  "historyId" : "d9e9604488eef3f056845ce5728706e2",
+  "time" : {
+    "start" : 1710082100991,
+    "stop" : 1710082101151,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710082085138,
+      "stop" : 1710082085161,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1710082100810,
+      "stop" : 1710082100810,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710082100810,
+      "stop" : 1710082100811,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "user",
+    "time" : {
+      "start" : 1710082100812,
+      "stop" : 1710082100991,
+      "duration" : 179
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1710082100812,
+        "stop" : 1710082100991,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51a4f7f59b693041",
+        "name" : "API Response",
+        "source" : "51a4f7f59b693041.json",
+        "type" : "application/json",
+        "size" : 270
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082100991,
+        "stop" : 1710082100991,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082100991,
+        "stop" : 1710082100991,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Update user data",
+      "time" : {
+        "start" : 1710082100992,
+        "stop" : 1710082101150,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47599229efd09568",
+        "name" : "API Response",
+        "source" : "47599229efd09568.json",
+        "type" : "application/json",
+        "size" : 263
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='65edc8344dd2d98555ef6c5b', title=None, firstName='Heather', lastName='White', gender=None, email='ann45@gmail.com', dateOfBirth=None, registerDate='2024-03-10T14:48:20.895Z', updatedDate='2024-03-10T14:48:20.895Z', phone=None, picture='https://placekitten.com/149/654', location=None)"
+      }, {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "payload",
+        "value" : "{'firstName': 'Ann', 'lastName': 'Khan', 'picture': 'https://dummyimage.com/577x13'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082101150,
+        "stop" : 1710082101150,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082101150,
+        "stop" : 1710082101151,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Checking changes to user data",
+      "time" : {
+        "start" : 1710082101151,
+        "stop" : 1710082101151,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_before",
+        "value" : "User(id='65edc8344dd2d98555ef6c5b', title=None, firstName='Heather', lastName='White', gender=None, email='ann45@gmail.com', dateOfBirth=None, registerDate='2024-03-10T14:48:20.895Z', updatedDate='2024-03-10T14:48:20.895Z', phone=None, picture='https://placekitten.com/149/654', location=None)"
+      }, {
+        "name" : "user_after",
+        "value" : "User(id='65edc8344dd2d98555ef6c5b', title=None, firstName='Ann', lastName='Khan', gender=None, email='ann45@gmail.com', dateOfBirth=None, registerDate='2024-03-10T14:48:20.895Z', updatedDate='2024-03-10T14:48:21.114Z', phone=None, picture='https://dummyimage.com/577x13', location=None)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user::0",
+    "time" : {
+      "start" : 1710082101151,
+      "stop" : 1710082101280,
+      "duration" : 129
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1710082101151,
+        "stop" : 1710082101278,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17985c1a75e60bc7",
+        "name" : "API Response",
+        "source" : "17985c1a75e60bc7.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='65edc8344dd2d98555ef6c5b', title=None, firstName='Heather', lastName='White', gender=None, email='ann45@gmail.com', dateOfBirth=None, registerDate='2024-03-10T14:48:20.895Z', updatedDate='2024-03-10T14:48:20.895Z', phone=None, picture='https://placekitten.com/149/654', location=None)"
+      }, {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "8609bfee116b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "243683a729ddbaa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016703993,
+          "stop" : 1710016704242,
+          "duration" : 249
+        }
+      }, {
+        "uid" : "bbf32e56b4c81b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001551121,
+          "stop" : 1710001551334,
+          "duration" : 213
+        }
+      }, {
+        "uid" : "89f00b0972727770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739762043,
+          "stop" : 1709739762145,
+          "duration" : 102
+        }
+      }, {
+        "uid" : "423c867b0c30d475",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561729946,
+          "stop" : 1709561730102,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "9c1cd6c07b146199",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561496952,
+          "stop" : 1709561497112,
+          "duration" : 160
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7e99b895787c1b2.json",
+  "parameterValues" : [ ]
+}

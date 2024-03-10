@@ -1,0 +1,471 @@
+{
+  "uid" : "8031cc2844630bba",
+  "name" : "Get list of posts for specific tag",
+  "fullName" : "tests.test_post_controller.TestPost#test_post_list_by_tag",
+  "historyId" : "9f27b0e4610edab892e3f711b5abd797",
+  "time" : {
+    "start" : 1710082099189,
+    "stop" : 1710082099526,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1710082098862,
+      "stop" : 1710082098862,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "user",
+    "time" : {
+      "start" : 1710082098864,
+      "stop" : 1710082098958,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1710082098864,
+        "stop" : 1710082098957,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbfc1aa3f43bf0e3",
+        "name" : "API Response",
+        "source" : "dbfc1aa3f43bf0e3.json",
+        "type" : "application/json",
+        "size" : 269
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082098958,
+        "stop" : 1710082098958,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082098958,
+        "stop" : 1710082098958,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710082085138,
+      "stop" : 1710082085161,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "post",
+    "time" : {
+      "start" : 1710082098958,
+      "stop" : 1710082099189,
+      "duration" : 231
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create 1 post(s)",
+      "time" : {
+        "start" : 1710082098958,
+        "stop" : 1710082099188,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check response is 200",
+        "time" : {
+          "start" : 1710082099188,
+          "stop" : 1710082099188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check validate schema",
+        "time" : {
+          "start" : 1710082099188,
+          "stop" : 1710082099188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "548b67663c2f2fae",
+        "name" : "API Response",
+        "source" : "548b67663c2f2fae.json",
+        "type" : "application/json",
+        "size" : 465
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082099188,
+        "stop" : 1710082099188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082099188,
+        "stop" : 1710082099189,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710082098862,
+      "stop" : 1710082098864,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User tag list request",
+      "time" : {
+        "start" : 1710082099189,
+        "stop" : 1710082099525,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "338af786ca67bf41",
+        "name" : "API Response",
+        "source" : "338af786ca67bf41.json",
+        "type" : "application/json",
+        "size" : 66
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "user",
+        "value" : "Post(id='65edc8334dd2d948f9ef6c34', text='Modern send check.', image=Url('https://dummyimage.com/684x383'), likes=682, link='', tags=['computer'], publishDate='2024-03-10T14:48:19.123Z', updatedDate='2024-03-10T14:48:19.123Z', owner=UserModel(id='65edc8324dd2d95652ef6c2e', title=None, firstName='Charles', lastName='Brown', picture=Url('https://picsum.photos/751/853')))"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082099525,
+        "stop" : 1710082099525,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082099525,
+        "stop" : 1710082099526,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user::0",
+    "time" : {
+      "start" : 1710082099689,
+      "stop" : 1710082099848,
+      "duration" : 159
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1710082099689,
+        "stop" : 1710082099846,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37d77d735fdcc300",
+        "name" : "API Response",
+        "source" : "37d77d735fdcc300.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='65edc8324dd2d95652ef6c2e', title=None, firstName='Charles', lastName='Brown', gender=None, email='umoore@gmail.com', dateOfBirth=None, registerDate='2024-03-10T14:48:18.937Z', updatedDate='2024-03-10T14:48:18.937Z', phone=None, picture='https://picsum.photos/751/853', location=None)"
+      }, {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "post::0",
+    "time" : {
+      "start" : 1710082099526,
+      "stop" : 1710082099689,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete post",
+      "time" : {
+        "start" : 1710082099526,
+        "stop" : 1710082099686,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7d8bdc85c2eac99",
+        "name" : "API Response",
+        "source" : "f7d8bdc85c2eac99.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "post",
+        "value" : "Post(id='65edc8334dd2d948f9ef6c34', text='Modern send check.', image=Url('https://dummyimage.com/684x383'), likes=682, link='', tags=['computer'], publishDate='2024-03-10T14:48:19.123Z', updatedDate='2024-03-10T14:48:19.123Z', owner=UserModel(id='65edc8324dd2d95652ef6c2e', title=None, firstName='Charles', lastName='Brown', picture=Url('https://picsum.photos/751/853')))"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPost"
+  }, {
+    "name" : "host",
+    "value" : "8609bfee116b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_post_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "80d25ec9e88e9ea8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016701297,
+          "stop" : 1710016702149,
+          "duration" : 852
+        }
+      }, {
+        "uid" : "e0ef4d8a7002ae35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001548673,
+          "stop" : 1710001548975,
+          "duration" : 302
+        }
+      }, {
+        "uid" : "b5e4e727db32fd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739760869,
+          "stop" : 1709739761017,
+          "duration" : 148
+        }
+      }, {
+        "uid" : "f62b4b1486435535",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561728089,
+          "stop" : 1709561728289,
+          "duration" : 200
+        }
+      }, {
+        "uid" : "144a4551befc80dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561495157,
+          "stop" : 1709561495427,
+          "duration" : 270
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8031cc2844630bba.json",
+  "parameterValues" : [ ]
+}

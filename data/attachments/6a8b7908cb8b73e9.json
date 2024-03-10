@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id": "65edc8264dd2d964d0ef6a4a",
+            "message": "May my red land quite value look.",
+            "owner": {
+                "id": "65edc8264dd2d99099ef6a3e",
+                "firstName": "Katherine",
+                "lastName": "Kelly",
+                "picture": "https://placekitten.com/499/327"
+            },
+            "post": "65edc8264dd2d97c6def6a44",
+            "publishDate": "2024-03-10T14:48:06.589Z"
+        }
+    ],
+    "total": 1,
+    "page": 0,
+    "limit": 20
+}

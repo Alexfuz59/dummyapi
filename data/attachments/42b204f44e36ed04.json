@@ -1,0 +1,177 @@
+{
+    "data": [
+        {
+            "id": "65edc8304dd2d90023ef6bc1",
+            "image": "https://picsum.photos/524/635",
+            "likes": 791,
+            "tags": [
+                "occur"
+            ],
+            "text": "Despite wear.",
+            "publishDate": "2024-03-10T14:48:16.039Z",
+            "updatedDate": "2024-03-10T14:48:16.039Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d96460ef6bbb",
+            "image": "https://picsum.photos/382/375",
+            "likes": 798,
+            "tags": [
+                "us"
+            ],
+            "text": "Despite machine.",
+            "publishDate": "2024-03-10T14:48:15.923Z",
+            "updatedDate": "2024-03-10T14:48:15.923Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d996ebef6bb5",
+            "image": "https://picsum.photos/4/307",
+            "likes": 168,
+            "tags": [
+                "dream"
+            ],
+            "text": "Set power lose.",
+            "publishDate": "2024-03-10T14:48:15.769Z",
+            "updatedDate": "2024-03-10T14:48:15.769Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d9377cef6baf",
+            "image": "https://dummyimage.com/783x1003",
+            "likes": 198,
+            "tags": [
+                "occur"
+            ],
+            "text": "Maintain law me.",
+            "publishDate": "2024-03-10T14:48:15.655Z",
+            "updatedDate": "2024-03-10T14:48:15.655Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d9b39eef6ba9",
+            "image": "https://dummyimage.com/275x888",
+            "likes": 532,
+            "tags": [
+                "unit"
+            ],
+            "text": "Describe send risk.",
+            "publishDate": "2024-03-10T14:48:15.530Z",
+            "updatedDate": "2024-03-10T14:48:15.530Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d9790def6ba3",
+            "image": "https://placekitten.com/253/471",
+            "likes": 810,
+            "tags": [
+                "will"
+            ],
+            "text": "Vote value window.",
+            "publishDate": "2024-03-10T14:48:15.393Z",
+            "updatedDate": "2024-03-10T14:48:15.393Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82f4dd2d91a2def6b9d",
+            "image": "https://dummyimage.com/87x773",
+            "likes": 996,
+            "tags": [
+                "issue"
+            ],
+            "text": "Product space.",
+            "publishDate": "2024-03-10T14:48:15.178Z",
+            "updatedDate": "2024-03-10T14:48:15.178Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82e4dd2d95de6ef6b97",
+            "image": "https://picsum.photos/376/888",
+            "likes": 194,
+            "tags": [
+                "development"
+            ],
+            "text": "Herself effort.",
+            "publishDate": "2024-03-10T14:48:14.914Z",
+            "updatedDate": "2024-03-10T14:48:14.914Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82e4dd2d92cb0ef6b91",
+            "image": "https://dummyimage.com/761x700",
+            "likes": 989,
+            "tags": [
+                "doctor"
+            ],
+            "text": "End hear team.",
+            "publishDate": "2024-03-10T14:48:14.789Z",
+            "updatedDate": "2024-03-10T14:48:14.789Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        },
+        {
+            "id": "65edc82e4dd2d947d4ef6b8b",
+            "image": "https://picsum.photos/879/210",
+            "likes": 878,
+            "tags": [
+                "two"
+            ],
+            "text": "Health he bit deep.",
+            "publishDate": "2024-03-10T14:48:14.655Z",
+            "updatedDate": "2024-03-10T14:48:14.655Z",
+            "owner": {
+                "id": "65edc82e4dd2d90a77ef6b85",
+                "firstName": "Elizabeth",
+                "lastName": "Lewis",
+                "picture": "https://placekitten.com/291/1008"
+            }
+        }
+    ],
+    "total": 10,
+    "page": 0,
+    "limit": 20
+}

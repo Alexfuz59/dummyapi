@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "65edc8324dd2d9234bef6c1d",
+            "image": "https://dummyimage.com/890x747",
+            "likes": 659,
+            "tags": [
+                "manage"
+            ],
+            "text": "Ability base second.",
+            "publishDate": "2024-03-10T14:48:18.374Z",
+            "updatedDate": "2024-03-10T14:48:18.374Z",
+            "owner": {
+                "id": "65edc8324dd2d9e67fef6c17",
+                "firstName": "Jacqueline",
+                "lastName": "Mendez",
+                "picture": "https://picsum.photos/150/194"
+            }
+        }
+    ],
+    "total": 1,
+    "page": 0,
+    "limit": 20
+}

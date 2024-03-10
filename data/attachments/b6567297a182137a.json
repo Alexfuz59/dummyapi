@@ -1,0 +1,18 @@
+{
+    "id": "65edc82e4dd2d95de6ef6b97",
+    "image": "https://picsum.photos/376/888",
+    "likes": 194,
+    "link": "",
+    "tags": [
+        "development"
+    ],
+    "text": "Herself effort.",
+    "publishDate": "2024-03-10T14:48:14.914Z",
+    "updatedDate": "2024-03-10T14:48:14.914Z",
+    "owner": {
+        "id": "65edc82e4dd2d90a77ef6b85",
+        "firstName": "Elizabeth",
+        "lastName": "Lewis",
+        "picture": "https://placekitten.com/291/1008"
+    }
+}

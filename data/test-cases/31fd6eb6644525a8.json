@@ -1,0 +1,537 @@
+{
+  "uid" : "31fd6eb6644525a8",
+  "name" : "Delete comment by id",
+  "fullName" : "tests.test_comment_controller.TestComment#test_delete_comment",
+  "historyId" : "ffbe3c4a3a5b9bd4282e0d6b32d3086a",
+  "time" : {
+    "start" : 1710082090587,
+    "stop" : 1710082090725,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710082090189,
+      "stop" : 1710082090193,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "user",
+    "time" : {
+      "start" : 1710082090194,
+      "stop" : 1710082090291,
+      "duration" : 97
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1710082090194,
+        "stop" : 1710082090291,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5af24471f07527d8",
+        "name" : "API Response",
+        "source" : "5af24471f07527d8.json",
+        "type" : "application/json",
+        "size" : 280
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082090291,
+        "stop" : 1710082090291,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082090291,
+        "stop" : 1710082090291,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  }, {
+    "name" : "comment",
+    "time" : {
+      "start" : 1710082090472,
+      "stop" : 1710082090586,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create 1 comment(s)",
+      "time" : {
+        "start" : 1710082090472,
+        "stop" : 1710082090586,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check response is 200",
+        "time" : {
+          "start" : 1710082090586,
+          "stop" : 1710082090586,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check validate schema",
+        "time" : {
+          "start" : 1710082090586,
+          "stop" : 1710082090586,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "17878a983fc8afa5",
+        "name" : "API Response",
+        "source" : "17878a983fc8afa5.json",
+        "type" : "application/json",
+        "size" : 366
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082090586,
+        "stop" : 1710082090586,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710082085138,
+      "stop" : 1710082085161,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1710082090189,
+      "stop" : 1710082090189,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "post",
+    "time" : {
+      "start" : 1710082090291,
+      "stop" : 1710082090472,
+      "duration" : 181
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create 1 post(s)",
+      "time" : {
+        "start" : 1710082090291,
+        "stop" : 1710082090472,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check response is 200",
+        "time" : {
+          "start" : 1710082090471,
+          "stop" : 1710082090472,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check validate schema",
+        "time" : {
+          "start" : 1710082090472,
+          "stop" : 1710082090472,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d7011d979be1ef88",
+        "name" : "API Response",
+        "source" : "d7011d979be1ef88.json",
+        "type" : "application/json",
+        "size" : 469
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082090472,
+        "stop" : 1710082090472,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082090472,
+        "stop" : 1710082090472,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete comment",
+      "time" : {
+        "start" : 1710082090587,
+        "stop" : 1710082090724,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f0fcfa98359aaae",
+        "name" : "API Response",
+        "source" : "3f0fcfa98359aaae.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "comment",
+        "value" : "Comment(id='65edc82a4dd2d94128ef6afe', message='Exist away budget there usually perform.', post='65edc82a4dd2d936f6ef6af8', publishDate='2024-03-10T14:48:10.563Z', owner=UserModel(id='65edc82a4dd2d9c07aef6af2', title=None, firstName='Jennifer', lastName='Fuentes', picture=Url('https://dummyimage.com/123x676')))"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082090724,
+        "stop" : 1710082090725,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user::0",
+    "time" : {
+      "start" : 1710082090853,
+      "stop" : 1710082090999,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1710082090853,
+        "stop" : 1710082090996,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd000273fe5a6956",
+        "name" : "API Response",
+        "source" : "cd000273fe5a6956.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='65edc82a4dd2d9c07aef6af2', title=None, firstName='Jennifer', lastName='Fuentes', gender=None, email='nataliewatson@yahoo.com', dateOfBirth=None, registerDate='2024-03-10T14:48:10.269Z', updatedDate='2024-03-10T14:48:10.269Z', phone=None, picture='https://dummyimage.com/123x676', location=None)"
+      }, {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "post::0",
+    "time" : {
+      "start" : 1710082090725,
+      "stop" : 1710082090853,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete post",
+      "time" : {
+        "start" : 1710082090726,
+        "stop" : 1710082090850,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "240355de5eb8e223",
+        "name" : "API Response",
+        "source" : "240355de5eb8e223.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      }, {
+        "name" : "post",
+        "value" : "Post(id='65edc82a4dd2d936f6ef6af8', text='And few choose this.', image=Url('https://placekitten.com/243/17'), likes=602, link='', tags=['suffer'], publishDate='2024-03-10T14:48:10.429Z', updatedDate='2024-03-10T14:48:10.429Z', owner=UserModel(id='65edc82a4dd2d9c07aef6af2', title=None, firstName='Jennifer', lastName='Fuentes', picture=Url('https://dummyimage.com/123x676')))"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Comment controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_comment_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestComment"
+  }, {
+    "name" : "host",
+    "value" : "8609bfee116b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_comment_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f2f1ea65e4b77381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016687139,
+          "stop" : 1710016687358,
+          "duration" : 219
+        }
+      }, {
+        "uid" : "cdf36b58c28949e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001533968,
+          "stop" : 1710001534118,
+          "duration" : 150
+        }
+      }, {
+        "uid" : "5e2a3b8f4b9b643d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739753773,
+          "stop" : 1709739753875,
+          "duration" : 102
+        }
+      }, {
+        "uid" : "bbb8a9103044c715",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561716712,
+          "stop" : 1709561716988,
+          "duration" : 276
+        }
+      }, {
+        "uid" : "aaf83e5f217691bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561481143,
+          "stop" : 1709561481369,
+          "duration" : 226
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31fd6eb6644525a8.json",
+  "parameterValues" : [ ]
+}

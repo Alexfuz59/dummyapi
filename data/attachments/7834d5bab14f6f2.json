@@ -1,0 +1,18 @@
+{
+    "id": "65edc8274dd2d9162bef6a6c",
+    "image": "https://picsum.photos/374/735",
+    "likes": 435,
+    "link": "",
+    "tags": [
+        "light"
+    ],
+    "text": "Possible find.",
+    "publishDate": "2024-03-10T14:48:07.402Z",
+    "updatedDate": "2024-03-10T14:48:07.402Z",
+    "owner": {
+        "id": "65edc8274dd2d9a699ef6a66",
+        "firstName": "Erica",
+        "lastName": "Love",
+        "picture": "https://placekitten.com/183/103"
+    }
+}

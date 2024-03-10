@@ -1,0 +1,18 @@
+{
+    "id": "65edc8314dd2d94313ef6bee",
+    "image": "https://picsum.photos/308/649",
+    "likes": 284,
+    "link": "",
+    "tags": [
+        "structure"
+    ],
+    "text": "Father create his.",
+    "publishDate": "2024-03-10T14:48:17.132Z",
+    "updatedDate": "2024-03-10T14:48:17.132Z",
+    "owner": {
+        "id": "65edc8314dd2d91ed4ef6be8",
+        "firstName": "Jacob",
+        "lastName": "Carlson",
+        "picture": "https://dummyimage.com/192x549"
+    }
+}

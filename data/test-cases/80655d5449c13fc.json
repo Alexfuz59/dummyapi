@@ -1,0 +1,219 @@
+{
+  "uid" : "80655d5449c13fc",
+  "name" : "Get list of users",
+  "fullName" : "tests.test_user_controller.TestUser#test_get_user_list",
+  "historyId" : "797adb3ab703d79d34f0c91168c9e6f9",
+  "time" : {
+    "start" : 1710082100496,
+    "stop" : 1710082100702,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710082085138,
+      "stop" : 1710082085161,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1710082100494,
+      "stop" : 1710082100494,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710082100494,
+      "stop" : 1710082100495,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Request user list",
+      "time" : {
+        "start" : 1710082100496,
+        "stop" : 1710082100702,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5331768a945b2d0e",
+        "name" : "API Response",
+        "source" : "5331768a945b2d0e.json",
+        "type" : "application/json",
+        "size" : 4872
+      } ],
+      "parameters" : [ {
+        "name" : "headers",
+        "value" : "{'app-id': '65d388b26d41f39919c944af'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1710082100702,
+        "stop" : 1710082100702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1710082100702,
+        "stop" : 1710082100702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "8609bfee116b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "5356023303317cbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016703386,
+          "stop" : 1710016703637,
+          "duration" : 251
+        }
+      }, {
+        "uid" : "100c05b6e9ac92e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001550418,
+          "stop" : 1710001550638,
+          "duration" : 220
+        }
+      }, {
+        "uid" : "d45b21aa8a697b78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739761734,
+          "stop" : 1709739761851,
+          "duration" : 117
+        }
+      }, {
+        "uid" : "5fd646c07035c07b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561729532,
+          "stop" : 1709561729662,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "da72dbee1fd3fe50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561496471,
+          "stop" : 1709561496631,
+          "duration" : 160
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "80655d5449c13fc.json",
+  "parameterValues" : [ ]
+}

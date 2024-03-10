@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "65edc82d4dd2d982d6ef6b5b",
+            "image": "https://placekitten.com/509/707",
+            "likes": 429,
+            "tags": [
+                "finally"
+            ],
+            "text": "Yes establish.",
+            "publishDate": "2024-03-10T14:48:13.424Z",
+            "updatedDate": "2024-03-10T14:48:13.424Z",
+            "owner": {
+                "id": "65edc82d4dd2d99a7eef6b55",
+                "firstName": "Dylan",
+                "lastName": "Reyes",
+                "picture": "https://picsum.photos/187/724"
+            }
+        }
+    ],
+    "total": 1,
+    "page": 0,
+    "limit": 20
+}
