@@ -3,7 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import PostDataLink
 from schema.post import Post
-from model.payload import RegisterPost
+from builder.payload import RegisterPost
 
 
 class CreatePost(BaseAPI):

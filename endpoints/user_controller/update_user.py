@@ -3,7 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import UserDataLink
 from schema.user_full import User
-from model.payload import UpdateUserDate
+from builder.payload import UpdateUserDate
 
 
 class UpdateUser(BaseAPI):

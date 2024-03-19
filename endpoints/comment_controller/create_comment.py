@@ -3,7 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import CommentDataLink
 from schema.comment import Comment
-from model.payload import CreateCommentDate
+from builder.payload import CreateCommentDate
 
 
 class CreateComment(BaseAPI):

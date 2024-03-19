@@ -8,6 +8,7 @@ class BaseAPI:
     response_json = None
     parsed_object = None
     payload = None
+    SCHEMA = None
 
     @allure.step('Check validate schema')
     def check_validate(self):
@@ -30,6 +31,7 @@ class BaseAPI:
     def check_response_is_403(self):
         assert self.response.status_code == 403, f'Error status code {self.response.status_code}'
 
+    @allure.step('Add json to allure report')
     def attach_response(self):
         response = json.dumps(self.response_json, indent=4)
         allure.attach(body=response, name="API Response", attachment_type=AttachmentType.JSON)

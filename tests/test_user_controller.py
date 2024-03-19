@@ -1,6 +1,6 @@
 import allure
 from base.base_test import BaseTest
-from model.payload import UpdateUserDate as UpUs
+from builder.payload import UpdateUserDate as UpUs
 
 
 @allure.feature('User controller')
