@@ -1,0 +1,227 @@
+{
+  "uid" : "4f476cb236c0d634",
+  "name" : "Request without authorization",
+  "fullName" : "tests.test_user_controller.TestUser#test_no_authorization",
+  "historyId" : "c3589d03259f2c2f2c4b04f2d911d756",
+  "time" : {
+    "start" : 1711004954179,
+    "stop" : 1711004954265,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1711004954179,
+      "stop" : 1711004954179,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1711004935234,
+      "stop" : 1711004935255,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1711004954179,
+      "stop" : 1711004954179,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Request user list",
+      "time" : {
+        "start" : 1711004954180,
+        "stop" : 1711004954265,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1711004954264,
+          "stop" : 1711004954264,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c208907963ac3d44",
+          "name" : "API Response",
+          "source" : "c208907963ac3d44.json",
+          "type" : "application/json",
+          "size" : 33
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "auth",
+        "value" : "'noauth'"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check response is 404",
+      "time" : {
+        "start" : 1711004954265,
+        "stop" : 1711004954265,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "85a26a0982d4"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c29bf640d9c8eda6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710082100394,
+          "stop" : 1710082100492,
+          "duration" : 98
+        }
+      }, {
+        "uid" : "e7d57bbad7e054fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016703237,
+          "stop" : 1710016703382,
+          "duration" : 145
+        }
+      }, {
+        "uid" : "bb46c524a3155142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001550238,
+          "stop" : 1710001550414,
+          "duration" : 176
+        }
+      }, {
+        "uid" : "a4e90a0567947bb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739761646,
+          "stop" : 1709739761729,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "e71fa572aba9cbc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561729401,
+          "stop" : 1709561729527,
+          "duration" : 126
+        }
+      }, {
+        "uid" : "af5b1a9289b5bf3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561496311,
+          "stop" : 1709561496466,
+          "duration" : 155
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4f476cb236c0d634.json",
+  "parameterValues" : [ ]
+}

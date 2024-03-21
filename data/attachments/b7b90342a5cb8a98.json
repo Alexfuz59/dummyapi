@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd14db6a3000ecc06240",
+    "image": "https://picsum.photos/485/195",
+    "likes": 799,
+    "link": "",
+    "tags": [
+        "every"
+    ],
+    "text": "Possible property.",
+    "publishDate": "2024-03-21T07:09:08.792Z",
+    "updatedDate": "2024-03-21T07:09:08.792Z",
+    "owner": {
+        "id": "65fbdd13db6a300f6bc06228",
+        "firstName": "Tracey",
+        "lastName": "Smith",
+        "picture": "https://picsum.photos/289/762"
+    }
+}

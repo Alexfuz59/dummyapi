@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd14db6a302414c06234",
+    "image": "https://picsum.photos/29/444",
+    "likes": 140,
+    "link": "",
+    "tags": [
+        "see"
+    ],
+    "text": "Nearly system staff.",
+    "publishDate": "2024-03-21T07:09:08.093Z",
+    "updatedDate": "2024-03-21T07:09:08.093Z",
+    "owner": {
+        "id": "65fbdd13db6a300f6bc06228",
+        "firstName": "Tracey",
+        "lastName": "Smith",
+        "picture": "https://picsum.photos/289/762"
+    }
+}

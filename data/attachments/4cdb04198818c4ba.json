@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd0bdb6a30401dc0616b",
+    "image": "https://picsum.photos/52/871",
+    "likes": 740,
+    "link": "",
+    "tags": [
+        "task"
+    ],
+    "text": "Beautiful animal.",
+    "publishDate": "2024-03-21T07:08:59.303Z",
+    "updatedDate": "2024-03-21T07:08:59.303Z",
+    "owner": {
+        "id": "65fbdd0bdb6a308244c06165",
+        "firstName": "Rodney",
+        "lastName": "Douglas",
+        "picture": "https://picsum.photos/206/20"
+    }
+}

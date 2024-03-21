@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd145192f751f2b943a5",
+    "image": "https://picsum.photos/938/33",
+    "likes": 45,
+    "link": "",
+    "tags": [
+        "beyond"
+    ],
+    "text": "Language human a.",
+    "publishDate": "2024-03-21T07:09:08.585Z",
+    "updatedDate": "2024-03-21T07:09:08.585Z",
+    "owner": {
+        "id": "65fbdd13db6a300f6bc06228",
+        "firstName": "Tracey",
+        "lastName": "Smith",
+        "picture": "https://picsum.photos/289/762"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd12db6a30039cc06205",
+    "image": "https://picsum.photos/875/327",
+    "likes": 385,
+    "link": "",
+    "tags": [
+        "memory"
+    ],
+    "text": "Attack enter fly.",
+    "publishDate": "2024-03-21T07:09:06.130Z",
+    "updatedDate": "2024-03-21T07:09:06.130Z",
+    "owner": {
+        "id": "65fbdd11db6a30375ac061ff",
+        "firstName": "Kendra",
+        "lastName": "Hill",
+        "picture": "https://placekitten.com/26/441"
+    }
+}

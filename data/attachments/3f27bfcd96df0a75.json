@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": "65fbdd0a29dcbf2f61a61d7f",
+            "message": "Board together doctor. Pretty meet usually.",
+            "owner": {
+                "id": "65fbdd09db6a3079b4c06147",
+                "firstName": "Richard",
+                "lastName": "Bauer",
+                "picture": "https://picsum.photos/937/472"
+            },
+            "post": "65fbdd09db6a303e9ac0614d",
+            "publishDate": "2024-03-21T07:08:58.092Z"
+        },
+        {
+            "id": "65fbdd09db6a307083c06153",
+            "message": "Hot national section agreement share life.",
+            "owner": {
+                "id": "65fbdd09db6a3079b4c06147",
+                "firstName": "Richard",
+                "lastName": "Bauer",
+                "picture": "https://picsum.photos/937/472"
+            },
+            "post": "65fbdd09db6a303e9ac0614d",
+            "publishDate": "2024-03-21T07:08:57.930Z"
+        }
+    ],
+    "total": 2,
+    "page": 0,
+    "limit": 20
+}

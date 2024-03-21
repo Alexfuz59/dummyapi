@@ -1,0 +1,18 @@
+{
+    "id": "65fbdd19db6a3085e3c062bd",
+    "image": "https://picsum.photos/251/174",
+    "likes": 850,
+    "link": "",
+    "tags": [
+        "ability"
+    ],
+    "text": "Sure popular.",
+    "publishDate": "2024-03-21T07:09:13.148Z",
+    "updatedDate": "2024-03-21T07:09:13.148Z",
+    "owner": {
+        "id": "65fbdd19db6a302850c062b7",
+        "firstName": "David",
+        "lastName": "Bell",
+        "picture": "https://placekitten.com/247/782"
+    }
+}

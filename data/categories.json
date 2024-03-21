@@ -6,13 +6,13 @@
       "name" : "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataListTags\ndata.0\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.6/v/string_type",
       "children" : [ {
         "name" : "Get list of tags",
-        "uid" : "5527166139a9853d",
+        "uid" : "58fa84cfd7c02bc8",
         "parentUid" : "c14f081cd4231580c2fc3038e868f72d",
         "status" : "broken",
         "time" : {
-          "start" : 1710082099851,
-          "stop" : 1710082100360,
-          "duration" : 509
+          "start" : 1711004953611,
+          "stop" : 1711004954147,
+          "duration" : 536
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "AssertionError: Error status code 200",
       "children" : [ {
         "name" : "Update user email by id",
-        "uid" : "7f96690a1c1ca3a4",
+        "uid" : "a5e0bbdfd56497e1",
         "parentUid" : "589c8e3121f3fac77f66a783cc5b400c",
         "status" : "failed",
         "time" : {
-          "start" : 1710082101419,
-          "stop" : 1710082101567,
-          "duration" : 148
+          "start" : 1711004955061,
+          "stop" : 1711004955220,
+          "duration" : 159
         },
         "flaky" : false,
         "newFailed" : false,
