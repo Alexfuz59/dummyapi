@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b0db6a30256cc06e90",
+    "image": "https://dummyimage.com/860x814",
+    "likes": 359,
+    "link": "",
+    "tags": [
+        "region"
+    ],
+    "text": "Season face event.",
+    "publishDate": "2024-03-21T07:33:04.927Z",
+    "updatedDate": "2024-03-21T07:33:04.927Z",
+    "owner": {
+        "id": "65fbe2b0db6a300f42c06e8a",
+        "firstName": "Melissa",
+        "lastName": "Hickman",
+        "picture": "https://placekitten.com/1014/656"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": "65fbe2abdb6a301c03c06dad",
+            "message": "Six clear gun defense story detail. Push might table reality stay.",
+            "owner": {
+                "id": "65fbe2aadb6a3074f2c06d9b",
+                "firstName": "Jason",
+                "lastName": "West",
+                "picture": "https://placekitten.com/0/792"
+            },
+            "post": "65fbe2aadb6a304072c06da1",
+            "publishDate": "2024-03-21T07:32:59.143Z"
+        },
+        {
+            "id": "65fbe2aadb6a307e20c06da7",
+            "message": "Dark much shoulder road.",
+            "owner": {
+                "id": "65fbe2aadb6a3074f2c06d9b",
+                "firstName": "Jason",
+                "lastName": "West",
+                "picture": "https://placekitten.com/0/792"
+            },
+            "post": "65fbe2aadb6a304072c06da1",
+            "publishDate": "2024-03-21T07:32:59.009Z"
+        }
+    ],
+    "total": 2,
+    "page": 0,
+    "limit": 20
+}

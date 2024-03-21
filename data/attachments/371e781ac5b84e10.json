@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b2db6a3084bfc06ecb",
+    "image": "https://picsum.photos/370/630",
+    "likes": 793,
+    "link": "",
+    "tags": [
+        "partner"
+    ],
+    "text": "Somebody three.",
+    "publishDate": "2024-03-21T07:33:06.908Z",
+    "updatedDate": "2024-03-21T07:33:06.908Z",
+    "owner": {
+        "id": "65fbe2b2db6a3059dac06eb3",
+        "firstName": "Robert",
+        "lastName": "Knapp",
+        "picture": "https://placekitten.com/755/897"
+    }
+}

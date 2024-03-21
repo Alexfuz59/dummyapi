@@ -1,0 +1,177 @@
+{
+    "data": [
+        {
+            "id": "65fbe2b3db6a30e582c06ef1",
+            "image": "https://dummyimage.com/215x450",
+            "likes": 491,
+            "tags": [
+                "Mr"
+            ],
+            "text": "Drop point join eye.",
+            "publishDate": "2024-03-21T07:33:07.887Z",
+            "updatedDate": "2024-03-21T07:33:07.887Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b3db6a305cebc06ee7",
+            "image": "https://dummyimage.com/244x91",
+            "likes": 345,
+            "tags": [
+                "bed"
+            ],
+            "text": "West guy easy.",
+            "publishDate": "2024-03-21T07:33:07.718Z",
+            "updatedDate": "2024-03-21T07:33:07.718Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b3db6a3051b6c06ee1",
+            "image": "https://dummyimage.com/408x649",
+            "likes": 178,
+            "tags": [
+                "half"
+            ],
+            "text": "Rise forward figure.",
+            "publishDate": "2024-03-21T07:33:07.535Z",
+            "updatedDate": "2024-03-21T07:33:07.535Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b35192f76bfeb943df",
+            "image": "https://dummyimage.com/229x732",
+            "likes": 222,
+            "tags": [
+                "call"
+            ],
+            "text": "Recently player.",
+            "publishDate": "2024-03-21T07:33:07.394Z",
+            "updatedDate": "2024-03-21T07:33:07.394Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b3db6a30b328c06ed7",
+            "image": "https://picsum.photos/458/568",
+            "likes": 554,
+            "tags": [
+                "however"
+            ],
+            "text": "It nor per world.",
+            "publishDate": "2024-03-21T07:33:07.199Z",
+            "updatedDate": "2024-03-21T07:33:07.199Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b3db6a302d65c06ed1",
+            "image": "https://placekitten.com/614/705",
+            "likes": 21,
+            "tags": [
+                "seven"
+            ],
+            "text": "Think significant.",
+            "publishDate": "2024-03-21T07:33:07.043Z",
+            "updatedDate": "2024-03-21T07:33:07.043Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b2db6a3084bfc06ecb",
+            "image": "https://picsum.photos/370/630",
+            "likes": 793,
+            "tags": [
+                "partner"
+            ],
+            "text": "Somebody three.",
+            "publishDate": "2024-03-21T07:33:06.908Z",
+            "updatedDate": "2024-03-21T07:33:06.908Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b2db6a309d3ec06ec5",
+            "image": "https://placekitten.com/819/1017",
+            "likes": 589,
+            "tags": [
+                "without"
+            ],
+            "text": "Operation feeling.",
+            "publishDate": "2024-03-21T07:33:06.747Z",
+            "updatedDate": "2024-03-21T07:33:06.747Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b2db6a307d46c06ebf",
+            "image": "https://picsum.photos/820/960",
+            "likes": 260,
+            "tags": [
+                "bit"
+            ],
+            "text": "Authority resource.",
+            "publishDate": "2024-03-21T07:33:06.600Z",
+            "updatedDate": "2024-03-21T07:33:06.600Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        },
+        {
+            "id": "65fbe2b2db6a30c000c06eb9",
+            "image": "https://placekitten.com/600/774",
+            "likes": 370,
+            "tags": [
+                "during"
+            ],
+            "text": "Try candidate big.",
+            "publishDate": "2024-03-21T07:33:06.441Z",
+            "updatedDate": "2024-03-21T07:33:06.441Z",
+            "owner": {
+                "id": "65fbe2b2db6a3059dac06eb3",
+                "firstName": "Robert",
+                "lastName": "Knapp",
+                "picture": "https://placekitten.com/755/897"
+            }
+        }
+    ],
+    "total": 10,
+    "page": 0,
+    "limit": 20
+}

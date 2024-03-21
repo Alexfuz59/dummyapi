@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b1db6a30ac75c06ea7",
+    "image": "https://picsum.photos/209/528",
+    "likes": 560,
+    "link": "",
+    "tags": [
+        "floor"
+    ],
+    "text": "Control activity.",
+    "publishDate": "2024-03-21T07:33:05.863Z",
+    "updatedDate": "2024-03-21T07:33:05.863Z",
+    "owner": {
+        "id": "65fbe2b1db6a304a5ec06e9b",
+        "firstName": "Austin",
+        "lastName": "Wade",
+        "picture": "https://placekitten.com/910/393"
+    }
+}

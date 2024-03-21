@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b3db6a30e582c06ef1",
+    "image": "https://dummyimage.com/215x450",
+    "likes": 491,
+    "link": "",
+    "tags": [
+        "Mr"
+    ],
+    "text": "Drop point join eye.",
+    "publishDate": "2024-03-21T07:33:07.887Z",
+    "updatedDate": "2024-03-21T07:33:07.887Z",
+    "owner": {
+        "id": "65fbe2b2db6a3059dac06eb3",
+        "firstName": "Robert",
+        "lastName": "Knapp",
+        "picture": "https://placekitten.com/755/897"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b3db6a305cebc06ee7",
+    "image": "https://dummyimage.com/244x91",
+    "likes": 345,
+    "link": "",
+    "tags": [
+        "bed"
+    ],
+    "text": "West guy easy.",
+    "publishDate": "2024-03-21T07:33:07.718Z",
+    "updatedDate": "2024-03-21T07:33:07.718Z",
+    "owner": {
+        "id": "65fbe2b2db6a3059dac06eb3",
+        "firstName": "Robert",
+        "lastName": "Knapp",
+        "picture": "https://placekitten.com/755/897"
+    }
+}

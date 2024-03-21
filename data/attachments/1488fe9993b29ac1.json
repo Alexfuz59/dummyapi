@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b7db6a30bdc6c06f62",
+    "image": "https://picsum.photos/723/460",
+    "likes": 846,
+    "link": "",
+    "tags": [
+        "interview"
+    ],
+    "text": "Environmental vote.",
+    "publishDate": "2024-03-21T07:33:11.449Z",
+    "updatedDate": "2024-03-21T07:33:11.449Z",
+    "owner": {
+        "id": "65fbe2b7db6a303e62c06f5c",
+        "firstName": "Edwin",
+        "lastName": "Taylor",
+        "picture": "https://placekitten.com/763/45"
+    }
+}

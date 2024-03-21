@@ -1,0 +1,18 @@
+{
+    "id": "65fbe2b35192f76bfeb943df",
+    "image": "https://dummyimage.com/229x732",
+    "likes": 222,
+    "link": "",
+    "tags": [
+        "call"
+    ],
+    "text": "Recently player.",
+    "publishDate": "2024-03-21T07:33:07.394Z",
+    "updatedDate": "2024-03-21T07:33:07.394Z",
+    "owner": {
+        "id": "65fbe2b2db6a3059dac06eb3",
+        "firstName": "Robert",
+        "lastName": "Knapp",
+        "picture": "https://placekitten.com/755/897"
+    }
+}
