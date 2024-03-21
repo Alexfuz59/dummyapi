@@ -6,3 +6,4 @@ allure-report
 venv
 .idea
 .pytest_cashe
+environment.properties

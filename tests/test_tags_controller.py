@@ -6,7 +6,8 @@ from base.base_test import BaseTest
 class TestTags(BaseTest):
 
     @allure.title('Get list of tags')
-    def test_list_tags(self, authorization):
-        self.list_tags.request_tags_list(authorization)
+    def test_list_tags(self):
+        self.list_tags.request_tags_list()
         self.list_tags.check_response_is_200()
         self.list_tags.check_validate()
+

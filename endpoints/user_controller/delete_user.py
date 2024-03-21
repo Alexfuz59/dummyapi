@@ -5,14 +5,14 @@ from config.links import UserDataLink
 
 
 class DeleteUser(BaseAPI):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, authorization):
+        super().__init__(authorization)
         self.url = UserDataLink()
 
     @allure.step('Delete user')
-    def request_delete_user(self, user, headers):
+    def request_delete_user(self, user):
         self.response = requests.delete(url=self.url.DELETE_USER(user.id),
-                                        headers=headers
+                                        headers=self.authorization
                                         )
         self.response_json = self.response.json()
         self.attach_response()

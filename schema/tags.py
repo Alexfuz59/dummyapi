@@ -3,4 +3,4 @@ from typing import List
 
 
 class DataListTags(BaseModel):
-    data: List[str]
+    data: List[str] = None

@@ -8,15 +8,15 @@ from schema.comment_list import DataListComment
 class ListCommentByPost(BaseAPI):
     SCHEMA = DataListComment
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, authorization):
+        super().__init__(authorization)
         self.url = CommentDataLink()
 
     @allure.step('Request comment list by post')
-    def request_list_comment_by_post(self, headers, post_id):
+    def request_list_comment_by_post(self, post_id):
         self.response = requests.get(
             url=self.url.GET_LIST_COMMENT_BY_POST(post_id),
-            headers=headers
+            headers=self.authorization
         )
         self.response_json = self.response.json()
         self.attach_response()

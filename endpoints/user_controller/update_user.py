@@ -9,14 +9,14 @@ from builder.payload import UpdateUserDate
 class UpdateUser(BaseAPI):
     SCHEMA = User
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, authorization):
+        super().__init__(authorization)
         self.url = UserDataLink()
 
     @allure.step('Update user data')
-    def request_update_user(self, user, headers, payload):
+    def request_update_user(self, user, payload):
         self.response = requests.put(url=self.url.UPDATE_USER(user.id),
-                                     headers=headers,
+                                     headers=self.authorization,
                                      json=payload
                                      )
         self.response_json = self.response.json()

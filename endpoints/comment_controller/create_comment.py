@@ -9,17 +9,17 @@ from builder.payload import CreateCommentDate
 class CreateComment(BaseAPI):
     SCHEMA = Comment
 
-    def __init__(self):
-        super().__init__()
-        self.payload = CreateCommentDate()
+    def __init__(self, authorization):
+        super().__init__(authorization)
         self.url = CommentDataLink()
+        self.payload = CreateCommentDate()
 
-    def request_create_comment(self, headers, post, commentCount=1):
+    def request_create_comment(self, post, commentCount=1):
         with allure.step(f'Create {commentCount} comment(s)'):
             for i in range(commentCount):
                 self.response = requests.post(
                     url=self.url.CREATE_COMMENT,
-                    headers=headers,
+                    headers=self.authorization,
                     json=self.payload.data_comment(post.owner.id, post.id)
                     )
                 self.response_json = self.response.json()

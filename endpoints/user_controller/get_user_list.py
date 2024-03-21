@@ -8,12 +8,16 @@ from schema.user_list import DataListUser
 class UserList(BaseAPI):
     SCHEMA = DataListUser
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, authorization ):
+        super().__init__(authorization)
         self.url = UserDataLink()
 
     @allure.step('Request user list')
-    def request_user_list(self, headers={}):
+    def request_user_list(self, auth=None):
+        if auth == "noauth":
+            headers = {}
+        else:
+            headers = self.authorization
         self.response = requests.get(url=self.url.GET_LIST,
                                      headers=headers
                                      )

@@ -6,9 +6,11 @@ from allure_commons.types import AttachmentType
 class BaseAPI:
     response = None
     response_json = None
-    parsed_object = None
     payload = None
     SCHEMA = None
+
+    def __init__(self, authorization):
+        self.authorization = authorization
 
     @allure.step('Check validate schema')
     def check_validate(self):
