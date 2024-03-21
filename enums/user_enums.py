@@ -10,6 +10,6 @@ class Title(Enum):
 
 
 class Genders(Enum):
-   male ="male"
+   male = "male"
    female = "female"
    other = "other"
