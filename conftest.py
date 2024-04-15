@@ -12,7 +12,6 @@ load_dotenv()
 
 @pytest.fixture(autouse=True, scope='function')
 def authorization(request):
-    EnvironmentAllure.create_environment()
     authorization = {'app-id': os.getenv('TOKEN')}
     request.cls.authorization = authorization
     return authorization
@@ -38,3 +37,8 @@ def post(authorization, user):
     post = create_post.check_validate()
     yield post
     delete_post.request_delete_post(post)
+
+
+@pytest.fixture(autouse=True, scope='session')
+def environment_allure():
+    EnvironmentAllure.create_environment()
