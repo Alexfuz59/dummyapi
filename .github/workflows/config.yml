@@ -3,7 +3,7 @@ name: dummyapi
 on: workflow_dispatch
 
 jobs:
-  api_tests_dummyapi:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +31,37 @@ jobs:
           sudo pwd
           sudo cp -R environment.properties allure-results
 
+      - name: Store allure-results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 1
+
+  generate-report:
+    needs: tests
+    runs-on: ubuntu-latest
+    name: Generate-report
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Checkout repository to GitHub runner
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'microsoft'
+          java-version: '17'
+
+      - name: Allure report installation
+        run: sudo wget https://github.com/allure-framework/allure2/releases/download/2.23.1/allure-2.23.1.tgz && sudo tar -zxvf allure-2.23.1.tgz -C /opt/ && sudo ln -s /opt/allure-2.23.1/bin/allure /usr/bin/allure
+
+      - name: Download all workflow run artifacts
+        uses: actions/download-artifact@v4
+
       - name: Generate Allure report
         run: |
           sudo docker-compose run dummyapi /bin/sh -c "allure generate allure-results --clean -o allure-report"
@@ -46,3 +77,25 @@ jobs:
           branch: gh-pages
           folder: allure-report
           clean: true
+
+      - name: Send message to bot(success)
+        if: ${{ needs.test.outputs.tests_passed == 'true' }}
+        env:
+          CHAT_IDS: ${{ secrets.CHAT_IDS }}
+        run: |
+          IFS=',' read -ra IDS <<< "$CHAT_IDS"
+          for ID in "${IDS[@]}"; do
+            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='✅Tests API dummyapi PASSED. 🌐Browser: Firefox. Report:https://alexfuz59.github.io/dummyapi/ '
+          done
+        continue-on-error: true
+
+      - name: Send message to bot(failure)
+        if: ${{ needs.test.outputs.tests_passed != 'true' }}
+        env:
+          CHAT_IDS: ${{ secrets.CHAT_IDS }}
+        run: |
+          IFS=',' read -ra IDS <<< "$CHAT_IDS"
+          for ID in "${IDS[@]}"; do
+            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='🆘Tests API dummyapi FAILED. 🌐Browser: Firefox. Report:https://alexfuz59.github.io/dummyapi/ '
+          done
+        continue-on-error: true
