@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": "661cdcd00a0472274aa8bab4",
+            "message": "Trouble country threat citizen.",
+            "owner": {
+                "id": "661cdcd00a0472bd4ca8baa2",
+                "firstName": "Amanda",
+                "lastName": "Jackson",
+                "picture": "https://picsum.photos/285/709"
+            },
+            "post": "661cdcd00a0472aba9a8baa8",
+            "publishDate": "2024-04-15T07:52:48.613Z"
+        },
+        {
+            "id": "661cdcd00a04726106a8baae",
+            "message": "How truth give kitchen same beat run.",
+            "owner": {
+                "id": "661cdcd00a0472bd4ca8baa2",
+                "firstName": "Amanda",
+                "lastName": "Jackson",
+                "picture": "https://picsum.photos/285/709"
+            },
+            "post": "661cdcd00a0472aba9a8baa8",
+            "publishDate": "2024-04-15T07:52:48.469Z"
+        }
+    ],
+    "total": 2,
+    "page": 0,
+    "limit": 20
+}

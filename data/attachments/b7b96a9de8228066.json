@@ -1,0 +1,18 @@
+{
+    "id": "661cdcd30a0472386da8bb34",
+    "image": "https://picsum.photos/3/314",
+    "likes": 77,
+    "link": "",
+    "tags": [
+        "and"
+    ],
+    "text": "Price important.",
+    "publishDate": "2024-04-15T07:52:51.849Z",
+    "updatedDate": "2024-04-15T07:52:51.849Z",
+    "owner": {
+        "id": "661cdcd30a04726c5ba8bb2e",
+        "firstName": "Ashley",
+        "lastName": "Glass",
+        "picture": "https://placekitten.com/91/168"
+    }
+}

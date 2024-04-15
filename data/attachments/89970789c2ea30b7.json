@@ -1,0 +1,18 @@
+{
+    "id": "661cdcd00a0472aba9a8baa8",
+    "image": "https://dummyimage.com/207x383",
+    "likes": 393,
+    "link": "",
+    "tags": [
+        "hotel"
+    ],
+    "text": "Fly image.",
+    "publishDate": "2024-04-15T07:52:48.308Z",
+    "updatedDate": "2024-04-15T07:52:48.308Z",
+    "owner": {
+        "id": "661cdcd00a0472bd4ca8baa2",
+        "firstName": "Amanda",
+        "lastName": "Jackson",
+        "picture": "https://picsum.photos/285/709"
+    }
+}

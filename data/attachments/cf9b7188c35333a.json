@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "661cdcd60a0472bd9ba8bb97",
+            "image": "https://picsum.photos/38/19",
+            "likes": 428,
+            "tags": [
+                "piece"
+            ],
+            "text": "No a about hope.",
+            "publishDate": "2024-04-15T07:52:54.819Z",
+            "updatedDate": "2024-04-15T07:52:54.819Z",
+            "owner": {
+                "id": "661cdcd60a0472cf7ea8bb91",
+                "firstName": "Gregory",
+                "lastName": "Potter",
+                "picture": "https://dummyimage.com/615x499"
+            }
+        }
+    ],
+    "total": 1,
+    "page": 0,
+    "limit": 20
+}

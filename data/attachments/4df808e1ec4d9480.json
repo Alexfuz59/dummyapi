@@ -1,0 +1,177 @@
+{
+    "data": [
+        {
+            "id": "661cdcd90a04720288a8bbfd",
+            "image": "https://placekitten.com/226/523",
+            "likes": 755,
+            "tags": [
+                "those"
+            ],
+            "text": "Kid table thing.",
+            "publishDate": "2024-04-15T07:52:57.370Z",
+            "updatedDate": "2024-04-15T07:52:57.370Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd90a0472bcdda8bbf7",
+            "image": "https://placekitten.com/22/515",
+            "likes": 851,
+            "tags": [
+                "event"
+            ],
+            "text": "Word almost.",
+            "publishDate": "2024-04-15T07:52:57.241Z",
+            "updatedDate": "2024-04-15T07:52:57.241Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd90a04729388a8bbf1",
+            "image": "https://placekitten.com/174/942",
+            "likes": 622,
+            "tags": [
+                "minute"
+            ],
+            "text": "Shoulder quickly.",
+            "publishDate": "2024-04-15T07:52:57.106Z",
+            "updatedDate": "2024-04-15T07:52:57.106Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a04727769a8bbeb",
+            "image": "https://placekitten.com/539/227",
+            "likes": 620,
+            "tags": [
+                "daughter"
+            ],
+            "text": "Mean technology.",
+            "publishDate": "2024-04-15T07:52:56.959Z",
+            "updatedDate": "2024-04-15T07:52:56.959Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a0472fedca8bbe5",
+            "image": "https://dummyimage.com/247x474",
+            "likes": 563,
+            "tags": [
+                "first"
+            ],
+            "text": "Of car all dog ago.",
+            "publishDate": "2024-04-15T07:52:56.827Z",
+            "updatedDate": "2024-04-15T07:52:56.827Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a047226dea8bbdf",
+            "image": "https://dummyimage.com/786x380",
+            "likes": 124,
+            "tags": [
+                "record"
+            ],
+            "text": "Treatment building.",
+            "publishDate": "2024-04-15T07:52:56.688Z",
+            "updatedDate": "2024-04-15T07:52:56.688Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a047264cba8bbd9",
+            "image": "https://placekitten.com/596/369",
+            "likes": 778,
+            "tags": [
+                "beyond"
+            ],
+            "text": "Factor green deal.",
+            "publishDate": "2024-04-15T07:52:56.541Z",
+            "updatedDate": "2024-04-15T07:52:56.541Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a04725ed6a8bbd3",
+            "image": "https://picsum.photos/98/48",
+            "likes": 698,
+            "tags": [
+                "ask"
+            ],
+            "text": "Create base great.",
+            "publishDate": "2024-04-15T07:52:56.400Z",
+            "updatedDate": "2024-04-15T07:52:56.400Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a047206e2a8bbcd",
+            "image": "https://placekitten.com/926/182",
+            "likes": 538,
+            "tags": [
+                "toward"
+            ],
+            "text": "Issue wide drug fly.",
+            "publishDate": "2024-04-15T07:52:56.265Z",
+            "updatedDate": "2024-04-15T07:52:56.265Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        },
+        {
+            "id": "661cdcd80a04724567a8bbc7",
+            "image": "https://dummyimage.com/924x784",
+            "likes": 458,
+            "tags": [
+                "represent"
+            ],
+            "text": "Second best.",
+            "publishDate": "2024-04-15T07:52:56.062Z",
+            "updatedDate": "2024-04-15T07:52:56.062Z",
+            "owner": {
+                "id": "661cdcd70a0472161aa8bbc1",
+                "firstName": "Bethany",
+                "lastName": "Giles",
+                "picture": "https://placekitten.com/612/788"
+            }
+        }
+    ],
+    "total": 10,
+    "page": 0,
+    "limit": 20
+}
