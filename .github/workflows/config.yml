@@ -85,7 +85,7 @@ jobs:
         run: |
           IFS=',' read -ra IDS <<< "$CHAT_IDS"
           for ID in "${IDS[@]}"; do
-            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='✅Tests API dummyapi PASSED. 🌐Browser: Firefox. Report:https://alexfuz59.github.io/dummyapi/ '
+            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='✅Tests API dummyapi PASSED. Report:https://alexfuz59.github.io/dummyapi/'
           done
         continue-on-error: true
 
@@ -96,6 +96,6 @@ jobs:
         run: |
           IFS=',' read -ra IDS <<< "$CHAT_IDS"
           for ID in "${IDS[@]}"; do
-            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='🆘Tests API dummyapi FAILED. 🌐Browser: Firefox. Report:https://alexfuz59.github.io/dummyapi/ '
+            curl -s -X POST https://api.telegram.org/bot${{ secrets.TOKEN_TG }}/sendMessage -F chat_id=$ID -F text='🆘Tests API dummyapi FAILED. Report:https://alexfuz59.github.io/dummyapi/'
           done
         continue-on-error: true
