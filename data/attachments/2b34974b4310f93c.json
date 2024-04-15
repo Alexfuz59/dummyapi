@@ -1,0 +1,18 @@
+{
+    "id": "661cdfb60a04728ea9a8c0c3",
+    "image": "https://picsum.photos/222/1024",
+    "likes": 221,
+    "link": "",
+    "tags": [
+        "single"
+    ],
+    "text": "Image view perform.",
+    "publishDate": "2024-04-15T08:05:10.867Z",
+    "updatedDate": "2024-04-15T08:05:10.867Z",
+    "owner": {
+        "id": "661cdfb50a047227e5a8c087",
+        "firstName": "Cheryl",
+        "lastName": "Rodriguez",
+        "picture": "https://placekitten.com/2/266"
+    }
+}

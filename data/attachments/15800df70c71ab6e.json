@@ -1,0 +1,18 @@
+{
+    "id": "661cdfb60a04725909a8c0b7",
+    "image": "https://dummyimage.com/389x511",
+    "likes": 480,
+    "link": "",
+    "tags": [
+        "war"
+    ],
+    "text": "Everything anything.",
+    "publishDate": "2024-04-15T08:05:10.558Z",
+    "updatedDate": "2024-04-15T08:05:10.558Z",
+    "owner": {
+        "id": "661cdfb50a047227e5a8c087",
+        "firstName": "Cheryl",
+        "lastName": "Rodriguez",
+        "picture": "https://placekitten.com/2/266"
+    }
+}

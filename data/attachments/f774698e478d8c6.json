@@ -1,0 +1,18 @@
+{
+    "id": "661cdfae0a04721c1ea8bf9c",
+    "image": "https://dummyimage.com/707x12",
+    "likes": 756,
+    "link": "",
+    "tags": [
+        "section"
+    ],
+    "text": "Truth what.",
+    "publishDate": "2024-04-15T08:05:02.146Z",
+    "updatedDate": "2024-04-15T08:05:02.146Z",
+    "owner": {
+        "id": "661cdfad0a0472b0eea8bf96",
+        "firstName": "Samuel",
+        "lastName": "Pearson",
+        "picture": "https://picsum.photos/569/235"
+    }
+}

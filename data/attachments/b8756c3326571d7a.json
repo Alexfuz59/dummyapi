@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "id": "661cdfb40a04723ef9a8c080",
+            "image": "https://dummyimage.com/429x718",
+            "likes": 90,
+            "tags": [
+                "lawyer"
+            ],
+            "text": "Western rock across.",
+            "publishDate": "2024-04-15T08:05:08.804Z",
+            "updatedDate": "2024-04-15T08:05:08.804Z",
+            "owner": {
+                "id": "661cdfb40a0472e4b3a8c071",
+                "firstName": "Lisa",
+                "lastName": "Mathews",
+                "picture": "https://dummyimage.com/538x826"
+            }
+        },
+        {
+            "id": "661cdfb40a04722422a8c07a",
+            "image": "https://placekitten.com/736/715",
+            "likes": 466,
+            "tags": [
+                "occur"
+            ],
+            "text": "Visit event seven.",
+            "publishDate": "2024-04-15T08:05:08.634Z",
+            "updatedDate": "2024-04-15T08:05:08.634Z",
+            "owner": {
+                "id": "661cdfb40a0472e4b3a8c071",
+                "firstName": "Lisa",
+                "lastName": "Mathews",
+                "picture": "https://dummyimage.com/538x826"
+            }
+        }
+    ],
+    "total": 2,
+    "page": 0,
+    "limit": 20
+}

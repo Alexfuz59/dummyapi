@@ -1,0 +1,18 @@
+{
+    "id": "661cdfb80a04721987a8c0f0",
+    "image": "https://dummyimage.com/9x755",
+    "likes": 153,
+    "link": "",
+    "tags": [
+        "house"
+    ],
+    "text": "Security analysis.",
+    "publishDate": "2024-04-15T08:05:12.194Z",
+    "updatedDate": "2024-04-15T08:05:12.194Z",
+    "owner": {
+        "id": "661cdfb80a04725e55a8c0ea",
+        "firstName": "Johnny",
+        "lastName": "Ramirez",
+        "picture": "https://placekitten.com/858/992"
+    }
+}

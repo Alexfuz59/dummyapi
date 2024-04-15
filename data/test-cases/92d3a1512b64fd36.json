@@ -1,0 +1,423 @@
+{
+  "uid" : "92d3a1512b64fd36",
+  "name" : "Update user email by id",
+  "fullName" : "tests.test_user_controller.TestUser#test_update_email_user",
+  "historyId" : "d3c7909542544c6829a95e6640744ef6",
+  "time" : {
+    "start" : 1713168316674,
+    "stop" : 1713168316813,
+    "duration" : 139
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error status code 200",
+  "statusTrace" : "self = <test_user_controller.TestUser object at 0x7f983f618ad0>\nuser = User(id='661cdfbc0a04724c13a8c163', title=None, firstName='Bonnie', lastName='Taylor', gender=None, email='ojenkins@ya...:16.626Z', updatedDate='2024-04-15T08:05:16.626Z', phone=None, picture='https://dummyimage.com/715x568', location=None)\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user):\n        self.update_user.request_update_user(user, payload=UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7f983f62ecf0>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "user",
+    "time" : {
+      "start" : 1713168316532,
+      "stop" : 1713168316674,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1713168316532,
+        "stop" : 1713168316674,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168316673,
+          "stop" : 1713168316674,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6f1bc2b6a1459356",
+          "name" : "API Response",
+          "source" : "6f1bc2b6a1459356.json",
+          "type" : "application/json",
+          "size" : 272
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1713168316674,
+        "stop" : 1713168316674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1713168316674,
+        "stop" : 1713168316674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1713168298357,
+      "stop" : 1713168298377,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1713168316530,
+      "stop" : 1713168316530,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1713168316530,
+      "stop" : 1713168316531,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "environment_allure",
+    "time" : {
+      "start" : 1713168298378,
+      "stop" : 1713168298378,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error status code 200",
+    "statusTrace" : "self = <test_user_controller.TestUser object at 0x7f983f618ad0>\nuser = User(id='661cdfbc0a04724c13a8c163', title=None, firstName='Bonnie', lastName='Taylor', gender=None, email='ojenkins@ya...:16.626Z', updatedDate='2024-04-15T08:05:16.626Z', phone=None, picture='https://dummyimage.com/715x568', location=None)\n\n    @allure.title('Update user email by id')\n    def test_update_email_user(self, user):\n        self.update_user.request_update_user(user, payload=UpUs.update_email())\n>       self.update_user.check_response_is_403()\n\ntests/test_user_controller.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <endpoints.user_controller.update_user.UpdateUser object at 0x7f983f62ecf0>\n\n    @allure.step('Check response is 404')\n    def check_response_is_403(self):\n>       assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\nE       AssertionError: Error status code 200\n\nbase/base_api.py:34: AssertionError",
+    "steps" : [ {
+      "name" : "Update user data",
+      "time" : {
+        "start" : 1713168316675,
+        "stop" : 1713168316813,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168316812,
+          "stop" : 1713168316813,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2280ad851d954d26",
+          "name" : "API Response",
+          "source" : "2280ad851d954d26.json",
+          "type" : "application/json",
+          "size" : 272
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='661cdfbc0a04724c13a8c163', title=None, firstName='Bonnie', lastName='Taylor', gender=None, email='ojenkins@yahoo.com', dateOfBirth=None, registerDate='2024-04-15T08:05:16.626Z', updatedDate='2024-04-15T08:05:16.626Z', phone=None, picture='https://dummyimage.com/715x568', location=None)"
+      }, {
+        "name" : "payload",
+        "value" : "{'email': 'davissteven@yahoo.com'}"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 404",
+      "time" : {
+        "start" : 1713168316813,
+        "stop" : 1713168316813,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Error status code 200\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/base/base_api.py\", line 34, in check_response_is_403\n    assert self.response.status_code == 403, f'Error status code {self.response.status_code}'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "user::0",
+    "time" : {
+      "start" : 1713168316816,
+      "stop" : 1713168316960,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1713168316817,
+        "stop" : 1713168316958,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168316957,
+          "stop" : 1713168316958,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "83a9ee64dec9b035",
+          "name" : "API Response",
+          "source" : "83a9ee64dec9b035.json",
+          "type" : "application/json",
+          "size" : 40
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='661cdfbc0a04724c13a8c163', title=None, firstName='Bonnie', lastName='Taylor', gender=None, email='ojenkins@yahoo.com', dateOfBirth=None, registerDate='2024-04-15T08:05:16.626Z', updatedDate='2024-04-15T08:05:16.626Z', phone=None, picture='https://dummyimage.com/715x568', location=None)"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "9ec3ab508807"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "770354c8083aa834",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1713167583321,
+          "stop" : 1713167583451,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "5d3af8ab53a12abb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1711006393461,
+          "stop" : 1711006393571,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "a5e0bbdfd56497e1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1711004955061,
+          "stop" : 1711004955220,
+          "duration" : 159
+        }
+      }, {
+        "uid" : "7f96690a1c1ca3a4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1710082101419,
+          "stop" : 1710082101567,
+          "duration" : 148
+        }
+      }, {
+        "uid" : "3c86ff1d87744dcf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1710016704714,
+          "stop" : 1710016704941,
+          "duration" : 227
+        }
+      }, {
+        "uid" : "b56a41206b3e3e27",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1710001551957,
+          "stop" : 1710001552103,
+          "duration" : 146
+        }
+      }, {
+        "uid" : "16785da1022b9928",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1709739762345,
+          "stop" : 1709739762444,
+          "duration" : 99
+        }
+      }, {
+        "uid" : "2299020b5093bb92",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1709561730395,
+          "stop" : 1709561730546,
+          "duration" : 151
+        }
+      }, {
+        "uid" : "8e44740016f8870",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Error status code 200",
+        "time" : {
+          "start" : 1709561497425,
+          "stop" : 1709561497574,
+          "duration" : 149
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "92d3a1512b64fd36.json",
+  "parameterValues" : [ ]
+}

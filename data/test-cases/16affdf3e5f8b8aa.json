@@ -1,0 +1,581 @@
+{
+  "uid" : "16affdf3e5f8b8aa",
+  "name" : "Get list of posts for specific user",
+  "fullName" : "tests.test_post_controller.TestPost#test_post_list_by_id_user",
+  "historyId" : "824c9cf040537a4a3607d1a7796e09a4",
+  "time" : {
+    "start" : 1713168313812,
+    "stop" : 1713168313958,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1713168298357,
+      "stop" : 1713168298377,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "post",
+    "time" : {
+      "start" : 1713168313660,
+      "stop" : 1713168313812,
+      "duration" : 152
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create 1 post(s)",
+      "time" : {
+        "start" : 1713168313660,
+        "stop" : 1713168313811,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check response is 200",
+        "time" : {
+          "start" : 1713168313811,
+          "stop" : 1713168313811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check validate schema",
+        "time" : {
+          "start" : 1713168313811,
+          "stop" : 1713168313811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168313811,
+          "stop" : 1713168313811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "28db9701519941b4",
+          "name" : "API Response",
+          "source" : "28db9701519941b4.json",
+          "type" : "application/json",
+          "size" : 460
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1713168313811,
+        "stop" : 1713168313811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1713168313811,
+        "stop" : 1713168313812,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1713168313525,
+      "stop" : 1713168313527,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1713168313525,
+      "stop" : 1713168313525,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "user",
+    "time" : {
+      "start" : 1713168313527,
+      "stop" : 1713168313660,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1713168313527,
+        "stop" : 1713168313659,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168313659,
+          "stop" : 1713168313659,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9b30888180f2aa82",
+          "name" : "API Response",
+          "source" : "9b30888180f2aa82.json",
+          "type" : "application/json",
+          "size" : 271
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1713168313659,
+        "stop" : 1713168313659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1713168313659,
+        "stop" : 1713168313660,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "environment_allure",
+    "time" : {
+      "start" : 1713168298378,
+      "stop" : 1713168298378,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User post list by id",
+      "time" : {
+        "start" : 1713168313812,
+        "stop" : 1713168313958,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168313957,
+          "stop" : 1713168313958,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1d41c95f550e3857",
+          "name" : "API Response",
+          "source" : "1d41c95f550e3857.json",
+          "type" : "application/json",
+          "size" : 652
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_id",
+        "value" : "'661cdfb90a047216dda8c119'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check response is 200",
+      "time" : {
+        "start" : 1713168313958,
+        "stop" : 1713168313958,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check validate schema",
+      "time" : {
+        "start" : 1713168313958,
+        "stop" : 1713168313958,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "post::0",
+    "time" : {
+      "start" : 1713168313958,
+      "stop" : 1713168314098,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete post",
+      "time" : {
+        "start" : 1713168313958,
+        "stop" : 1713168314096,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168314096,
+          "stop" : 1713168314096,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f5e1364ba165a43a",
+          "name" : "API Response",
+          "source" : "f5e1364ba165a43a.json",
+          "type" : "application/json",
+          "size" : 40
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "post",
+        "value" : "Post(id='661cdfb90a04726086a8c11f', text='Hard serve lawyer.', image=Url('https://dummyimage.com/516x218'), likes=407, link='', tags=['easy'], publishDate='2024-04-15T08:05:13.765Z', updatedDate='2024-04-15T08:05:13.765Z', owner=UserModel(id='661cdfb90a047216dda8c119', title=None, firstName='James', lastName='Green', picture=Url('https://dummyimage.com/261x860')))"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  }, {
+    "name" : "user::0",
+    "time" : {
+      "start" : 1713168314099,
+      "stop" : 1713168314233,
+      "duration" : 134
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1713168314099,
+        "stop" : 1713168314231,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add json to allure report",
+        "time" : {
+          "start" : 1713168314231,
+          "stop" : 1713168314231,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "50a8c9e2a13e9129",
+          "name" : "API Response",
+          "source" : "50a8c9e2a13e9129.json",
+          "type" : "application/json",
+          "size" : 40
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(id='661cdfb90a047216dda8c119', title=None, firstName='James', lastName='Green', gender=None, email='edwin77@hotmail.com', dateOfBirth=None, registerDate='2024-04-15T08:05:13.618Z', updatedDate='2024-04-15T08:05:13.618Z', phone=None, picture='https://dummyimage.com/261x860', location=None)"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Post controller"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_post_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPost"
+  }, {
+    "name" : "host",
+    "value" : "9ec3ab508807"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_post_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "88778c174b57a577",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713167580408,
+          "stop" : 1713167580597,
+          "duration" : 189
+        }
+      }, {
+        "uid" : "7e5671045a533231",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711006390753,
+          "stop" : 1711006390902,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "de07d785336796b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711004952151,
+          "stop" : 1711004952282,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "b3bbb27778ced09a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710082098403,
+          "stop" : 1710082098610,
+          "duration" : 207
+        }
+      }, {
+        "uid" : "c57dd9fe66fcc53d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710016700220,
+          "stop" : 1710016700472,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "c7d57b2c0d9e69bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710001547662,
+          "stop" : 1710001547917,
+          "duration" : 255
+        }
+      }, {
+        "uid" : "28269662cf93edee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709739760251,
+          "stop" : 1709739760356,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "8f7b6fd71628ec83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561727204,
+          "stop" : 1709561727404,
+          "duration" : 200
+        }
+      }, {
+        "uid" : "e927a01cb27dad26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709561490616,
+          "stop" : 1709561490770,
+          "duration" : 154
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "16affdf3e5f8b8aa.json",
+  "parameterValues" : [ ]
+}

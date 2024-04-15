@@ -1,241 +1,241 @@
 [ {
-  "uid" : "afaa8800f0f5f979",
-  "name" : "Get list of comments",
-  "time" : {
-    "start" : 1713167565333,
-    "stop" : 1713167566845,
-    "duration" : 1512
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3eda4bdceaf3c4f9",
-  "name" : "Get list of comments for specific post",
-  "time" : {
-    "start" : 1713167573750,
-    "stop" : 1713167573909,
-    "duration" : 159
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "727bf05927211238",
-  "name" : "Delete post by id",
-  "time" : {
-    "start" : 1713167578723,
-    "stop" : 1713167578976,
-    "duration" : 253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fbd00e429bc922e7",
-  "name" : "Create new comment",
-  "time" : {
-    "start" : 1713167568350,
-    "stop" : 1713167568955,
-    "duration" : 605
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c79063eb83cebdb2",
-  "name" : "Get list of users",
-  "time" : {
-    "start" : 1713167582445,
-    "stop" : 1713167582575,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b64b62cbebcd85c",
+  "uid" : "89104e8551330f1a",
   "name" : "Create new post",
   "time" : {
-    "start" : 1713167574724,
-    "stop" : 1713167575002,
-    "duration" : 278
+    "start" : 1713168307929,
+    "stop" : 1713168308237,
+    "duration" : 308
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33d864873de0ab28",
-  "name" : "Get list of comments for specific user",
-  "time" : {
-    "start" : 1713167572847,
-    "stop" : 1713167572980,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91f75b84863521a8",
-  "name" : "Create new post",
-  "time" : {
-    "start" : 1713167575266,
-    "stop" : 1713167575698,
-    "duration" : 432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f533719e1352898",
-  "name" : "Create new comment",
-  "time" : {
-    "start" : 1713167567127,
-    "stop" : 1713167567557,
-    "duration" : 430
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f0238824d2cd93d",
-  "name" : "Delete user by id",
-  "time" : {
-    "start" : 1713167584116,
-    "stop" : 1713167584372,
-    "duration" : 256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4be56fea817bfc1",
-  "name" : "Request without authorization",
-  "time" : {
-    "start" : 1713167582323,
-    "stop" : 1713167582441,
-    "duration" : 118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa3dab5a7eb8a886",
-  "name" : "Update user by id",
-  "time" : {
-    "start" : 1713167582845,
-    "stop" : 1713167583013,
-    "duration" : 168
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88778c174b57a577",
-  "name" : "Get list of posts for specific user",
-  "time" : {
-    "start" : 1713167580408,
-    "stop" : 1713167580597,
-    "duration" : 189
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81d14c7fe1d54d8c",
-  "name" : "Create new post",
-  "time" : {
-    "start" : 1713167575964,
-    "stop" : 1713167577563,
-    "duration" : 1599
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "770354c8083aa834",
-  "name" : "Update user email by id",
-  "time" : {
-    "start" : 1713167583321,
-    "stop" : 1713167583451,
-    "duration" : 130
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3eeebe1db66340f",
-  "name" : "Get list of posts for specific tag",
-  "time" : {
-    "start" : 1713167581243,
-    "stop" : 1713167581499,
-    "duration" : 256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6b7980bc67bbe3c",
-  "name" : "Get list of posts",
-  "time" : {
-    "start" : 1713167574208,
-    "stop" : 1713167574597,
-    "duration" : 389
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da33ad45fc7b167f",
+  "uid" : "d1aa4f290c4e6634",
   "name" : "Update post by id",
   "time" : {
-    "start" : 1713167578018,
-    "stop" : 1713167578158,
-    "duration" : 140
+    "start" : 1713168311487,
+    "stop" : 1713168311644,
+    "duration" : 157
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7a8b6ea0eca6bb23",
+  "uid" : "323ec616ecc8ff67",
+  "name" : "Get user full data by user id",
+  "time" : {
+    "start" : 1713168317095,
+    "stop" : 1713168317234,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "193da3d334dc28f2",
+  "name" : "Get post full data by post id",
+  "time" : {
+    "start" : 1713168313086,
+    "stop" : 1713168313234,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9210e1add7cc11c3",
+  "name" : "Create new comment",
+  "time" : {
+    "start" : 1713168299720,
+    "stop" : 1713168300364,
+    "duration" : 644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dc6b38e99c53813",
+  "name" : "Delete user by id",
+  "time" : {
+    "start" : 1713168317513,
+    "stop" : 1713168317797,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fd3b7a5826a09b9",
+  "name" : "Get list of comments",
+  "time" : {
+    "start" : 1713168298378,
+    "stop" : 1713168299421,
+    "duration" : 1043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee886019d722c11",
+  "name" : "Get list of posts",
+  "time" : {
+    "start" : 1713168307348,
+    "stop" : 1713168307786,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51f2e6644c5d0641",
   "name" : "Get list of tags",
   "time" : {
-    "start" : 1713167581765,
-    "stop" : 1713167582290,
-    "duration" : 525
+    "start" : 1713168315058,
+    "stop" : 1713168315599,
+    "duration" : 541
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "74d80f06cc4074ee",
-  "name" : "Get user full data by user id",
+  "uid" : "b70336f12f417981",
+  "name" : "Create new post",
   "time" : {
-    "start" : 1713167583710,
-    "stop" : 1713167583838,
+    "start" : 1713168308528,
+    "stop" : 1713168309001,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b00159fad14c091c",
+  "name" : "Get list of comments for specific post",
+  "time" : {
+    "start" : 1713168306826,
+    "stop" : 1713168306998,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb126302646a313",
+  "name" : "Request without authorization",
+  "time" : {
+    "start" : 1713168315632,
+    "stop" : 1713168315760,
     "duration" : 128
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b757b541252d10e5",
-  "name" : "Create new comment",
+  "uid" : "b8468ac5e0ca48f9",
+  "name" : "Delete post by id",
   "time" : {
-    "start" : 1713167569528,
-    "stop" : 1713167571333,
-    "duration" : 1805
+    "start" : 1713168312237,
+    "stop" : 1713168312522,
+    "duration" : 285
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "23d9012f13ac3730",
-  "name" : "Delete comment by id",
+  "uid" : "37f2ee7bc1816b14",
+  "name" : "Get list of comments for specific user",
   "time" : {
-    "start" : 1713167572019,
-    "stop" : 1713167572159,
-    "duration" : 140
+    "start" : 1713168305892,
+    "stop" : 1713168306047,
+    "duration" : 155
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "20d46d823949e8ba",
+  "uid" : "272238d3cbde8603",
   "name" : "Create new user",
   "time" : {
-    "start" : 1713167582579,
-    "stop" : 1713167582713,
-    "duration" : 134
+    "start" : 1713168315912,
+    "stop" : 1713168316055,
+    "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bec141bf85b7c1b2",
-  "name" : "Get post full data by post id",
+  "uid" : "365d50f2ce39a0c6",
+  "name" : "Create new comment",
   "time" : {
-    "start" : 1713167579508,
-    "stop" : 1713167579640,
-    "duration" : 132
+    "start" : 1713168300969,
+    "stop" : 1713168301577,
+    "duration" : 608
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e39a0c899dd83dc",
+  "name" : "Delete comment by id",
+  "time" : {
+    "start" : 1713168304977,
+    "stop" : 1713168305135,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31737c9cfbe9f285",
+  "name" : "Update user by id",
+  "time" : {
+    "start" : 1713168316194,
+    "stop" : 1713168316370,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14a439e33c039571",
+  "name" : "Get list of users",
+  "time" : {
+    "start" : 1713168315763,
+    "stop" : 1713168315909,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16affdf3e5f8b8aa",
+  "name" : "Get list of posts for specific user",
+  "time" : {
+    "start" : 1713168313812,
+    "stop" : 1713168313958,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b69c8e47c6e589d",
+  "name" : "Create new comment",
+  "time" : {
+    "start" : 1713168302190,
+    "stop" : 1713168304196,
+    "duration" : 2006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d57e398360418705",
+  "name" : "Get list of posts for specific tag",
+  "time" : {
+    "start" : 1713168314535,
+    "stop" : 1713168314726,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5482a7ac1f59c27",
+  "name" : "Create new post",
+  "time" : {
+    "start" : 1713168309287,
+    "stop" : 1713168311058,
+    "duration" : 1771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92d3a1512b64fd36",
+  "name" : "Update user email by id",
+  "time" : {
+    "start" : 1713168316674,
+    "stop" : 1713168316813,
+    "duration" : 139
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
