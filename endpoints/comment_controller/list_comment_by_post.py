@@ -3,6 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import CommentDataLink
 from schema.comment_list import DataListComment
+from enums.error_message import ErrorMessage
 
 
 class ListCommentByPost(BaseAPI):
@@ -23,4 +24,5 @@ class ListCommentByPost(BaseAPI):
 
     @allure.step('Check post id in comment list')
     def check_id_post_in_comment_list(self, response, comment):
-        assert response.data[0].post == comment.post, 'Invalid post ID in comment list'
+        assert response.data[0].post == comment.post,\
+            ErrorMessage.ERROR_POST_ID_COMMENT_LIST

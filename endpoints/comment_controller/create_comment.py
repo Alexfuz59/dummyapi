@@ -4,6 +4,7 @@ from base.base_api import BaseAPI
 from config.links import CommentDataLink
 from schema.comment import Comment
 from builder.payload import CreateCommentDate
+from enums.error_message import ErrorMessage
 
 
 class CreateComment(BaseAPI):
@@ -29,9 +30,9 @@ class CreateComment(BaseAPI):
 
     @allure.step('Check user id in comment')
     def check_id_user_in_comment(post, response):
-        assert response.owner.id == post.owner.id, 'Invalid user ID in comment'
+        assert response.owner.id == post.owner.id, ErrorMessage.ERROR_USER_ID_COMMENT
 
     @allure.step('Check post id in comment')
     def check_id_post_in_comment(post, response):
-        assert response.post == post.id, 'Invalid post ID in comment'
+        assert response.post == post.id, ErrorMessage.ERROR_POST_ID_COMMENT
 

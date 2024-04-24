@@ -4,6 +4,7 @@ from base.base_api import BaseAPI
 from config.links import PostDataLink
 from schema.post import Post
 from builder.payload import UpdatePostDate
+from enums.error_message import ErrorMessage
 
 
 class UpdatePost(BaseAPI):
@@ -25,7 +26,7 @@ class UpdatePost(BaseAPI):
 
     @allure.step('Checking for changes to the post data')
     def check_update_post(self, payload, response):
-        assert payload.text != response.text, 'text update error'
-        assert payload.image != response.image, 'image update error'
-        assert payload.link != response.link, 'link update error'
-        assert payload.tags != response.tags, 'tags update error'
+        assert payload.text != response.text, ErrorMessage.ERROR_UPDATE_TEXT
+        assert payload.image != response.image, ErrorMessage.ERROR_UPDATE_IMAGE
+        assert payload.link != response.link, ErrorMessage.ERROR_UPDATE_LINK
+        assert payload.tags != response.tags, ErrorMessage.ERROR_UPDATE_TAGS

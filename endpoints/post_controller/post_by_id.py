@@ -3,6 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import PostDataLink
 from schema.post import Post
+from enums.error_message import ErrorMessage
 
 
 class PostByID(BaseAPI):
@@ -23,4 +24,4 @@ class PostByID(BaseAPI):
 
     @allure.step('Checking the requested post by id')
     def check_post_by_id(self, post, response):
-        assert post == response, 'Invalid search by post id'
+        assert post == response, ErrorMessage.ERROR_POST_ID_SEARCH

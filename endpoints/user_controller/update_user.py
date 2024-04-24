@@ -3,7 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import UserDataLink
 from schema.user_full import User
-from builder.payload import UpdateUserDate
+from enums.error_message import ErrorMessage
 
 
 class UpdateUser(BaseAPI):
@@ -25,5 +25,5 @@ class UpdateUser(BaseAPI):
 
     @allure.step('Checking changes to user data')
     def check_update_user(self, user_before, user_after):
-        assert user_before.firstName != user_after.firstName, 'firstName has not been updated'
-        assert user_before.lastName != user_after.lastName, 'lastName has not been updated'
+        assert user_before.firstName != user_after.firstName, ErrorMessage.ERROR_FIRSTNAME_UPDATED
+        assert user_before.lastName != user_after.lastName, ErrorMessage.ERROR_LASTNAME_UPDATED

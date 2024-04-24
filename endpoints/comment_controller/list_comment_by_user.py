@@ -3,6 +3,7 @@ import allure
 from base.base_api import BaseAPI
 from config.links import CommentDataLink
 from schema.comment_list import DataListComment
+from enums.error_message import ErrorMessage
 
 
 class ListCommentByUser(BaseAPI):
@@ -23,6 +24,7 @@ class ListCommentByUser(BaseAPI):
 
     @allure.step('Check user id in comment list')
     def check_id_user_in_comment_list(self, response, comment):
-        assert response.data[0].owner.id == comment.owner.id, 'Invalid user ID in comment list'
+        assert response.data[0].owner.id == comment.owner.id,\
+            ErrorMessage.ERROR_USER_ID_COMMENT_LIST
 
 
