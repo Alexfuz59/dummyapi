@@ -1,0 +1,18 @@
+{
+    "id": "662ba0481846fb7a9ad2806d",
+    "image": "https://dummyimage.com/118x950",
+    "likes": 679,
+    "link": "",
+    "tags": [
+        "special"
+    ],
+    "text": "Doctor respond top.",
+    "publishDate": "2024-04-26T12:38:32.341Z",
+    "updatedDate": "2024-04-26T12:38:32.341Z",
+    "owner": {
+        "id": "662ba0471846fb6722d28037",
+        "firstName": "Joshua",
+        "lastName": "Oneill",
+        "picture": "https://dummyimage.com/757x661"
+    }
+}

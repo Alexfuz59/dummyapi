@@ -8,91 +8,91 @@
         "name" : "TestComment",
         "children" : [ {
           "name" : "Get list of comments",
-          "uid" : "2fd3b7a5826a09b9",
+          "uid" : "5daa0f0fa33461a5",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168298378,
-            "stop" : 1713168299421,
-            "duration" : 1043
+            "start" : 1714135101354,
+            "stop" : 1714135102325,
+            "duration" : 971
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Create new comment",
-          "uid" : "9210e1add7cc11c3",
+          "uid" : "3d67602a34d6813d",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168299720,
-            "stop" : 1713168300364,
-            "duration" : 644
+            "start" : 1714135102676,
+            "stop" : 1714135103104,
+            "duration" : 428
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1" ]
         }, {
           "name" : "Create new comment",
-          "uid" : "365d50f2ce39a0c6",
+          "uid" : "1d960cd24a8a5b17",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168300969,
-            "stop" : 1713168301577,
-            "duration" : 608
+            "start" : 1714135103866,
+            "stop" : 1714135104508,
+            "duration" : 642
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "2" ]
         }, {
           "name" : "Create new comment",
-          "uid" : "4b69c8e47c6e589d",
+          "uid" : "242e9cc3cf8f5ea",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168302190,
-            "stop" : 1713168304196,
-            "duration" : 2006
+            "start" : 1714135105042,
+            "stop" : 1714135106748,
+            "duration" : 1706
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "10" ]
         }, {
           "name" : "Delete comment by id",
-          "uid" : "8e39a0c899dd83dc",
+          "uid" : "51207f7ba77b20b2",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168304977,
-            "stop" : 1713168305135,
-            "duration" : 158
+            "start" : 1714135107434,
+            "stop" : 1714135107566,
+            "duration" : 132
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get list of comments for specific user",
-          "uid" : "37f2ee7bc1816b14",
+          "uid" : "ba5fe6bc1888a00a",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168305892,
-            "stop" : 1713168306047,
-            "duration" : 155
+            "start" : 1714135108228,
+            "stop" : 1714135108359,
+            "duration" : 131
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get list of comments for specific post",
-          "uid" : "b00159fad14c091c",
+          "uid" : "9fba39afb80da46f",
           "parentUid" : "1cdae2643e87e21efff18511f813ba6c",
           "status" : "passed",
           "time" : {
-            "start" : 1713168306826,
-            "stop" : 1713168306998,
-            "duration" : 172
+            "start" : 1714135109046,
+            "stop" : 1714135109193,
+            "duration" : 147
           },
           "flaky" : false,
           "newFailed" : false,
@@ -107,117 +107,117 @@
         "name" : "TestPost",
         "children" : [ {
           "name" : "Get list of posts",
-          "uid" : "2ee886019d722c11",
+          "uid" : "37eb55d1845a81d2",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168307348,
-            "stop" : 1713168307786,
-            "duration" : 438
+            "start" : 1714135109468,
+            "stop" : 1714135109814,
+            "duration" : 346
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Create new post",
-          "uid" : "89104e8551330f1a",
+          "uid" : "c4f06ad7fde22280",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168307929,
-            "stop" : 1713168308237,
-            "duration" : 308
+            "start" : 1714135109952,
+            "stop" : 1714135110220,
+            "duration" : 268
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1" ]
         }, {
           "name" : "Create new post",
-          "uid" : "b70336f12f417981",
+          "uid" : "1e183e4a29101dfa",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168308528,
-            "stop" : 1713168309001,
-            "duration" : 473
+            "start" : 1714135110474,
+            "stop" : 1714135110884,
+            "duration" : 410
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "2" ]
         }, {
           "name" : "Create new post",
-          "uid" : "5482a7ac1f59c27",
+          "uid" : "302c057dca198503",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168309287,
-            "stop" : 1713168311058,
-            "duration" : 1771
+            "start" : 1714135111134,
+            "stop" : 1714135112638,
+            "duration" : 1504
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "10" ]
         }, {
           "name" : "Update post by id",
-          "uid" : "d1aa4f290c4e6634",
+          "uid" : "b3af29a139b68aee",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168311487,
-            "stop" : 1713168311644,
-            "duration" : 157
+            "start" : 1714135113045,
+            "stop" : 1714135113188,
+            "duration" : 143
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Delete post by id",
-          "uid" : "b8468ac5e0ca48f9",
+          "uid" : "fdec796b8473e34b",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168312237,
-            "stop" : 1713168312522,
-            "duration" : 285
+            "start" : 1714135113703,
+            "stop" : 1714135113962,
+            "duration" : 259
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get post full data by post id",
-          "uid" : "193da3d334dc28f2",
+          "uid" : "a74f75d35416b073",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168313086,
-            "stop" : 1713168313234,
-            "duration" : 148
+            "start" : 1714135114489,
+            "stop" : 1714135114618,
+            "duration" : 129
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get list of posts for specific user",
-          "uid" : "16affdf3e5f8b8aa",
+          "uid" : "b5a57d3f2a4b801a",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168313812,
-            "stop" : 1713168313958,
-            "duration" : 146
+            "start" : 1714135115141,
+            "stop" : 1714135115319,
+            "duration" : 178
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get list of posts for specific tag",
-          "uid" : "d57e398360418705",
+          "uid" : "8f856aef81ffdf86",
           "parentUid" : "3ecd8761e3b7863de18f0d9b500aa2f9",
           "status" : "passed",
           "time" : {
-            "start" : 1713168314535,
-            "stop" : 1713168314726,
-            "duration" : 191
+            "start" : 1714135115845,
+            "stop" : 1714135116033,
+            "duration" : 188
           },
           "flaky" : false,
           "newFailed" : false,
@@ -232,13 +232,13 @@
         "name" : "TestTags",
         "children" : [ {
           "name" : "Get list of tags",
-          "uid" : "51f2e6644c5d0641",
+          "uid" : "781c419bfa9babe5",
           "parentUid" : "d81080aec9ef82ab588f31dc10ddc867",
-          "status" : "broken",
+          "status" : "failed",
           "time" : {
-            "start" : 1713168315058,
-            "stop" : 1713168315599,
-            "duration" : 541
+            "start" : 1714135116296,
+            "stop" : 1714135116802,
+            "duration" : 506
           },
           "flaky" : false,
           "newFailed" : false,
@@ -253,91 +253,91 @@
         "name" : "TestUser",
         "children" : [ {
           "name" : "Request without authorization",
-          "uid" : "7cb126302646a313",
+          "uid" : "82e2575e4b1c5586",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168315632,
-            "stop" : 1713168315760,
-            "duration" : 128
+            "start" : 1714135116837,
+            "stop" : 1714135116944,
+            "duration" : 107
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get list of users",
-          "uid" : "14a439e33c039571",
+          "uid" : "397f1dfecdcf652",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168315763,
-            "stop" : 1713168315909,
-            "duration" : 146
+            "start" : 1714135116947,
+            "stop" : 1714135117076,
+            "duration" : 129
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Create new user",
-          "uid" : "272238d3cbde8603",
+          "uid" : "e0deea5c5176ab57",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168315912,
-            "stop" : 1713168316055,
-            "duration" : 143
+            "start" : 1714135117079,
+            "stop" : 1714135117205,
+            "duration" : 126
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Update user by id",
-          "uid" : "31737c9cfbe9f285",
+          "uid" : "8d9c2137c3dd598",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168316194,
-            "stop" : 1713168316370,
-            "duration" : 176
+            "start" : 1714135117325,
+            "stop" : 1714135117455,
+            "duration" : 130
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Update user email by id",
-          "uid" : "92d3a1512b64fd36",
+          "uid" : "e9ebd987858a5391",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "failed",
           "time" : {
-            "start" : 1713168316674,
-            "stop" : 1713168316813,
-            "duration" : 139
+            "start" : 1714135117722,
+            "stop" : 1714135117838,
+            "duration" : 116
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Get user full data by user id",
-          "uid" : "323ec616ecc8ff67",
+          "uid" : "64660ef816b84d7d",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168317095,
-            "stop" : 1713168317234,
-            "duration" : 139
+            "start" : 1714135118106,
+            "stop" : 1714135118242,
+            "duration" : 136
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Delete user by id",
-          "uid" : "2dc6b38e99c53813",
+          "uid" : "a87ef0390dfd323b",
           "parentUid" : "cc5e3a21643765daac525a846adcf722",
           "status" : "passed",
           "time" : {
-            "start" : 1713168317513,
-            "stop" : 1713168317797,
-            "duration" : 284
+            "start" : 1714135118493,
+            "stop" : 1714135118745,
+            "duration" : 252
           },
           "flaky" : false,
           "newFailed" : false,

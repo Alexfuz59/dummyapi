@@ -1,0 +1,18 @@
+{
+    "id": "662ba03f1846fbff02d27f1e",
+    "image": "https://dummyimage.com/256x100",
+    "likes": 789,
+    "link": "",
+    "tags": [
+        "experience"
+    ],
+    "text": "This wonder sure.",
+    "publishDate": "2024-04-26T12:38:23.821Z",
+    "updatedDate": "2024-04-26T12:38:23.821Z",
+    "owner": {
+        "id": "662ba03f1846fbe12ed27f18",
+        "firstName": "Joshua",
+        "lastName": "Wright",
+        "picture": "https://dummyimage.com/745x511"
+    }
+}

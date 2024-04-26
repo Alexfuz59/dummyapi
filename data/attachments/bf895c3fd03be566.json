@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id": "662ba03e1846fb2b40d27efa",
+            "message": "Because team something mother career heavy card moment.",
+            "owner": {
+                "id": "662ba03e1846fb2515d27eee",
+                "firstName": "Alex",
+                "lastName": "Welch",
+                "picture": "https://picsum.photos/962/370"
+            },
+            "post": "662ba03e1846fb4af8d27ef4",
+            "publishDate": "2024-04-26T12:38:22.770Z"
+        }
+    ],
+    "total": 1,
+    "page": 0,
+    "limit": 20
+}

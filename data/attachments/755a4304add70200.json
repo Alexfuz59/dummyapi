@@ -1,0 +1,18 @@
+{
+    "id": "662ba04b1846fbb746d280cf",
+    "image": "https://dummyimage.com/382x812",
+    "likes": 415,
+    "link": "",
+    "tags": [
+        "together"
+    ],
+    "text": "Author case hour.",
+    "publishDate": "2024-04-26T12:38:35.104Z",
+    "updatedDate": "2024-04-26T12:38:35.104Z",
+    "owner": {
+        "id": "662ba04a1846fb695cd280c9",
+        "firstName": "Jesse",
+        "lastName": "Washington",
+        "picture": "https://picsum.photos/533/748"
+    }
+}

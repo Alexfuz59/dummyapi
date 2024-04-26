@@ -1,0 +1,18 @@
+{
+    "id": "662ba0481846fb6d8ed28073",
+    "image": "https://picsum.photos/887/916",
+    "likes": 577,
+    "link": "",
+    "tags": [
+        "pick"
+    ],
+    "text": "Test attack against.",
+    "publishDate": "2024-04-26T12:38:32.472Z",
+    "updatedDate": "2024-04-26T12:38:32.472Z",
+    "owner": {
+        "id": "662ba0471846fb6722d28037",
+        "firstName": "Joshua",
+        "lastName": "Oneill",
+        "picture": "https://dummyimage.com/757x661"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "662ba04b1846fb7e57d280ed",
+    "image": "https://picsum.photos/996/517",
+    "likes": 898,
+    "link": "",
+    "tags": [
+        "letter"
+    ],
+    "text": "Six story challenge.",
+    "publishDate": "2024-04-26T12:38:35.806Z",
+    "updatedDate": "2024-04-26T12:38:35.806Z",
+    "owner": {
+        "id": "662ba04b1846fb6ebfd280e7",
+        "firstName": "Sara",
+        "lastName": "Davis",
+        "picture": "https://placekitten.com/347/918"
+    }
+}

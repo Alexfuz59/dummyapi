@@ -1,0 +1,18 @@
+{
+    "id": "662ba0461846fb3d6dd2800d",
+    "image": "https://dummyimage.com/529x667",
+    "likes": 257,
+    "link": "",
+    "tags": [
+        "suddenly"
+    ],
+    "text": "List probably.",
+    "publishDate": "2024-04-26T12:38:30.045Z",
+    "updatedDate": "2024-04-26T12:38:30.045Z",
+    "owner": {
+        "id": "662ba0451846fb12e8d28007",
+        "firstName": "Ryan",
+        "lastName": "Vazquez",
+        "picture": "https://dummyimage.com/516x691"
+    }
+}

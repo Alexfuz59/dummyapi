@@ -15,8 +15,8 @@
     "uid" : "27a3a66922436ddd9c56ef5e640760c2",
     "name" : "Tag controller",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

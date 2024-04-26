@@ -1,0 +1,18 @@
+{
+    "id": "662ba0441846fbad0ad27fc5",
+    "image": "https://dummyimage.com/54x170",
+    "likes": 454,
+    "link": "",
+    "tags": [
+        "feeling"
+    ],
+    "text": "TV small think.",
+    "publishDate": "2024-04-26T12:38:28.065Z",
+    "updatedDate": "2024-04-26T12:38:28.065Z",
+    "owner": {
+        "id": "662ba0431846fb75f4d27fbf",
+        "firstName": "Sean",
+        "lastName": "Butler",
+        "picture": "https://placekitten.com/330/200"
+    }
+}

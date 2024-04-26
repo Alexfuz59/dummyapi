@@ -1,0 +1,18 @@
+{
+    "id": "662ba0471846fba8aad28049",
+    "image": "https://dummyimage.com/816x432",
+    "likes": 185,
+    "link": "",
+    "tags": [
+        "Mr"
+    ],
+    "text": "Message exactly.",
+    "publishDate": "2024-04-26T12:38:31.520Z",
+    "updatedDate": "2024-04-26T12:38:31.520Z",
+    "owner": {
+        "id": "662ba0471846fb6722d28037",
+        "firstName": "Joshua",
+        "lastName": "Oneill",
+        "picture": "https://dummyimage.com/757x661"
+    }
+}

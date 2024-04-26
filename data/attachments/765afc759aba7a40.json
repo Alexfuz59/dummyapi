@@ -1,0 +1,18 @@
+{
+    "id": "662ba0491846fb2f0ad28088",
+    "image": "https://dummyimage.com/820x865",
+    "likes": 717,
+    "link": "",
+    "tags": [
+        "trouble"
+    ],
+    "text": "Enjoy church.",
+    "publishDate": "2024-04-26T12:38:33.003Z",
+    "updatedDate": "2024-04-26T12:38:33.003Z",
+    "owner": {
+        "id": "662ba0481846fb6379d28082",
+        "firstName": "Alexander",
+        "lastName": "Miller",
+        "picture": "https://dummyimage.com/498x680"
+    }
+}

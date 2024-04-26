@@ -1,0 +1,18 @@
+{
+    "id": "662ba0491846fb76a5d280a0",
+    "image": "https://dummyimage.com/755x670",
+    "likes": 933,
+    "link": "",
+    "tags": [
+        "you"
+    ],
+    "text": "Owner training.",
+    "publishDate": "2024-04-26T12:38:33.665Z",
+    "updatedDate": "2024-04-26T12:38:33.665Z",
+    "owner": {
+        "id": "662ba0491846fba579d2809a",
+        "firstName": "Kathleen",
+        "lastName": "Stevens",
+        "picture": "https://placekitten.com/89/579"
+    }
+}
