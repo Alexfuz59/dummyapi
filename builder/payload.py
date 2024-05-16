@@ -2,6 +2,7 @@ from faker import Faker
 from random import randint
 
 fake = Faker()
+fake_ru = Faker('ru_RU')
 
 
 class RegisterUser:
@@ -11,9 +12,11 @@ class RegisterUser:
         lastName = fake.last_name()
         email = fake.ascii_free_email()
         picture = fake.image_url()
+        phone = fake_ru.phone_number()
         return {"firstName": firstName,
                 "lastName": lastName,
                 "email": email,
+                "phone": phone,
                 "picture": picture
                 }
 

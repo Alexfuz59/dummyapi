@@ -1,5 +1,7 @@
 import datetime as dt
-from pydantic import BaseModel, Field, EmailStr, field_validator, ValidationInfo
+import re
+
+from pydantic import BaseModel, Field, EmailStr, field_validator, ValidationInfo, HttpUrl
 from enums.user_enums import Title, Genders
 from pydantic.types import PastDate
 from typing import Optional
@@ -16,8 +18,15 @@ class User(BaseModel):
     registerDate: str
     updatedDate: str
     phone: Optional[str] = None
-    picture: str
+    picture: HttpUrl
     location: Optional[str] = None
+
+    @field_validator('phone')
+    def check_phone(cls, phone):
+        pattern = r'((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}'
+        phone_result = re.finditer(pattern, phone)
+        if not phone_result:
+            raise ValueError('Invalid phone number')
 
     @field_validator('dateOfBirth')
     def check_birthday(cls, dateOfBirth):
