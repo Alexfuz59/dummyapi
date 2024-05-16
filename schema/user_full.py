@@ -1,6 +1,5 @@
 import datetime as dt
 import re
-
 from pydantic import BaseModel, Field, EmailStr, field_validator, ValidationInfo, HttpUrl
 from enums.user_enums import Title, Genders
 from pydantic.types import PastDate
